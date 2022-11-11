@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.web.WebView?>
+
+<Pane prefHeight="628.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fi.tuni.prog3.sisu.mainWindowController">
+   <children>
+      <TabPane fx:id="mainTabPane" layoutY="26.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="1000.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="degree_tab" text="Degree programme">
+               <content>
+                  <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0">
+                     <left>
+                        <AnchorPane prefHeight="600.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <ListView fx:id="degreelist" layoutX="2.0" layoutY="-1.0" onMouseClicked="#handleItemClick" prefHeight="572.0" prefWidth="500.0" />
+                           </children>
+                        </AnchorPane>
+                     </left>
+                     <right>
+                        <AnchorPane prefHeight="745.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <Button fx:id="save_btn" layoutX="248.0" layoutY="699.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="120.0" style="-fx-background-color: #3c2a7a;" text="Save" textFill="WHITE" />
+                              <Button id="button" fx:id="saveDegreeProgramme" layoutX="227.0" layoutY="626.0" mnemonicParsing="false" onMouseClicked="#initDegreeProgramme" prefHeight="28.0" prefWidth="66.0" style="-fx-background-color: #3c2a7a;" text="Select" textFill="WHITE" />
+                              <Label fx:id="degree_info" layoutX="11.0" layoutY="89.0" prefHeight="76.0" prefWidth="476.0" />
+                              <Label fx:id="degreeProgammeErrorLabel" layoutX="124.0" layoutY="591.0" prefHeight="27.0" prefWidth="272.0" textAlignment="CENTER" textFill="RED" />
+                              <WebView fx:id="web_view" layoutX="4.0" layoutY="171.0" prefHeight="447.0" prefWidth="490.0" />
+                           </children>
+                        </AnchorPane>
+                     </right>
+                  </BorderPane>
+               </content>
+          </Tab>
+          <Tab fx:id="structureTab" text="Structure of studies">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <BorderPane prefHeight="570.0" prefWidth="1000.0">
+                           <left>
+                              <AnchorPane prefHeight="530.0" prefWidth="502.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TreeView fx:id="treeView" layoutX="2.0" onMouseClicked="#handleTreeItemClick" prefHeight="570.0" prefWidth="500.0" />
+                                    <Button fx:id="expand_all" layoutX="433.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#expandAll" prefHeight="20.0" prefWidth="55.0" style="-fx-background-color: #3c2a7a;" text="Expand" textFill="WHITE">
+                                       <font>
+                                          <Font size="10.0" />
+                                       </font>
+                                    </Button>
+                                    <Button fx:id="collapse_all" layoutX="433.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#collapseAll" prefHeight="20.0" prefWidth="55.0" style="-fx-background-color: #3c2a7a;" text="Collapse" textFill="WHITE" visible="false">
+                                       <font>
+                                          <Font size="10.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </AnchorPane>
+                           </left>
+                           <right>
+                              <AnchorPane prefHeight="570.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <Label fx:id="tree_info" layoutX="2.0" layoutY="1.0" prefHeight="76.0" prefWidth="495.0" />
+                                    <WebView fx:id="tree_description" layoutX="1.0" layoutY="80.0" prefHeight="427.0" prefWidth="494.0" />
+                                    <AnchorPane fx:id="attainment_pane" layoutX="2.0" layoutY="509.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="61.0" prefWidth="497.0">
+                                       <children>
+                                          <DatePicker fx:id="date_picker" layoutX="214.0" layoutY="9.0" />
+                                          <ChoiceBox fx:id="choice_box" layoutX="111.0" layoutY="9.0" prefHeight="26.0" prefWidth="62.0" />
+                                          <CheckBox fx:id="check_box" layoutX="34.0" layoutY="13.0" mnemonicParsing="false" />
+                                          <Button fx:id="save_attainment" layoutX="428.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#saveAttainment" text="Save" />
+                                          <TextField layoutX="5.0" layoutY="35.0" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: transparent;" text="Completed" />
+                                          <TextField fx:id="choice_box_text" layoutX="115.0" layoutY="35.0" prefHeight="26.0" prefWidth="55.0" style="-fx-background-color: transparent;" text="Grade" />
+                                          <TextField layoutX="239.0" layoutY="35.0" prefHeight="26.0" prefWidth="135.0" style="-fx-background-color: transparent;" text="Date of achievement" />
+                                       </children>
+                                    </AnchorPane>
+                                    <Label fx:id="attainment_error" alignment="CENTER_RIGHT" layoutX="340.0" layoutY="467.0" prefHeight="33.0" prefWidth="148.0" textAlignment="RIGHT" textFill="#d30202">
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                           </right>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab onSelectionChanged="#setMyProfile" text="My profile">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <BorderPane prefHeight="570.0" prefWidth="1000.0">
+                           <right>
+                              <AnchorPane prefHeight="745.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <Text fill="#3c2a7a" layoutX="177.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" textAlignment="CENTER" wrappingWidth="112.9256591796875">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                    </Text>
+                                    <Circle fill="#3c2a7a" layoutX="239.0" layoutY="150.0" radius="32.0" strokeDashOffset="50.0" strokeLineJoin="BEVEL" strokeMiterLimit="50.0" strokeType="INSIDE" strokeWidth="5.0">
+                                       <stroke>
+                                          <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                                             <stops>
+                                                <Stop>
+                                                   <color>
+                                                      <Color />
+                                                   </color>
+                                                </Stop>
+                                                <Stop offset="0.7818791946308725">
+                                                   <color>
+                                                      <Color />
+                                                   </color>
+                                                </Stop>
+                                                <Stop offset="1.0">
+                                                   <color>
+                                                      <Color red="1.0" green="1.0" blue="1.0" />
+                                                   </color>
+                                                </Stop>
+                                             </stops>
+                                          </RadialGradient>
+                                       </stroke>
+                                    </Circle>
+                                    <TabPane layoutX="5.0" layoutY="194.0" prefHeight="366.0" prefWidth="488.0">
+                                       <tabs>
+                                          <Tab closable="false" text="Credits">
+                                            <content>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                   <children>
+                                                      <Text layoutX="131.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Credits:" wrappingWidth="85.39764404296875">
+                                                         <font>
+                                                            <Font size="22.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text fx:id="total_done_credits" layoutX="216.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="140.2279052734375">
+                                                         <font>
+                                                            <Font size="22.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text layoutX="93.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(Total credits in all degrees together" wrappingWidth="216.65673828125">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text fx:id="degree_text" fill="#3c2a7a" layoutX="11.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="465.9256591796875">
+                                                         <font>
+                                                            <Font size="18.0" />
+                                                         </font>
+                                                      </Text>
+                                                      <Text fx:id="total_all_credits" layoutX="310.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="84.65673828125">
+                                                         <font>
+                                                            <Font size="14.0" />
+                                                         </font>
+                                                      </Text>
+                                                   </children>
+                                                </AnchorPane>
+                                            </content>
+                                          </Tab>
+                                          <Tab closable="false" text="Piechart">
+                                             <content>
+                                                <PieChart fx:id="chart" layoutX="300.0" layoutY="300.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="491.0" />
+                                             </content>
+                                          </Tab>
+                                          <Tab closable="false" text="Linechart">
+                                            <content>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                   <children>
+                                                      <LineChart fx:id="lineChart" layoutX="-1.0" layoutY="2.0" prefHeight="296.0" prefWidth="490.0">
+                                                        <xAxis>
+                                                          <NumberAxis fx:id="periodsAxis" label="Periods" side="BOTTOM" />
+                                                        </xAxis>
+                                                        <yAxis>
+                                                          <NumberAxis fx:id="creditsAxis" label="Credits" side="LEFT" />
+                                                        </yAxis>
+                                                      </LineChart>
+                                                   </children>
+                                                </AnchorPane>
+                                            </content>
+                                          </Tab>
+                                       </tabs>
+                                    </TabPane>
+                                    <Text fx:id="avg_grade" fill="WHITE" layoutX="217.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="42.999999999999886">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </Text>
+                                    <Text layoutX="175.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Average grade" wrappingWidth="170.2279052734375">
+                                       <font>
+                                          <Font size="22.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </AnchorPane>
+                           </right>
+                           <left>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="570.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <TextField fx:id="profileStudentNum" layoutX="246.0" layoutY="196.0" prefHeight="25.0" prefWidth="197.0" style="-fx-background-color: transparent; -fx-border-color: #3c2a7a; -fx-border-width: 0px 0px 2px 0px;" />
+                                    <Text fill="#3c2a7a" layoutX="153.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My data" textAlignment="CENTER" wrappingWidth="185.9365234375">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                    </Text>
+                                    <TextField fx:id="profileStartYear" layoutX="250.0" layoutY="298.0" prefHeight="25.0" prefWidth="197.0" style="-fx-background-color: transparent; -fx-border-color: #3c2a7a; -fx-border-width: 0px 0px 2px 0px;" />
+                                    <TextField fx:id="profileEndYear" layoutX="250.0" layoutY="349.0" prefHeight="25.0" prefWidth="197.0" style="-fx-background-color: transparent; -fx-border-color: #3c2a7a; -fx-border-width: 0px 0px 2px 0px;" />
+                                    <TextField fx:id="profileName" layoutX="246.0" layoutY="247.0" prefHeight="25.0" prefWidth="197.0" style="-fx-background-color: transparent; -fx-border-color: #3c2a7a; -fx-border-width: 0px 0px 2px 0px;" />
+                                    <Button fx:id="saveUser" layoutX="131.0" layoutY="482.0" mnemonicParsing="false" onMouseClicked="#saveU" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #3c2a7a;" text="Save" textFill="WHITE" />
+                                    <Text fill="#3c2a7a" layoutX="55.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student number">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="#3c2a7a" layoutX="55.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="#3c2a7a" layoutX="55.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start year">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="#3c2a7a" layoutX="54.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Completion year">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Text>
+                                    <BorderPane prefHeight="200.0" prefWidth="200.0" />
+                                    <Separator layoutX="503.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="580.0" prefWidth="4.0">
+                                       <effect>
+                                          <Lighting>
+                                             <bumpInput>
+                                                <Shadow />
+                                             </bumpInput>
+                                             <light>
+                                                <Light.Distant />
+                                             </light>
+                                          </Lighting>
+                                       </effect>
+                                    </Separator>
+                                    <Button fx:id="deleteUser" layoutX="316.0" layoutY="482.0" mnemonicParsing="false" onMouseClicked="#deleteU" prefHeight="34.0" prefWidth="92.0" style="-fx-background-color: #3c2a7a;" text="Delete" textFill="WHITE" />
+                                    <Label fx:id="profileSuccessLabel" layoutX="197.0" layoutY="528.0" prefHeight="18.0" prefWidth="282.0" textAlignment="CENTER" textFill="#02d41a" />
+                                    <Label fx:id="profileErrorLabel" layoutX="131.0" layoutY="416.0" prefHeight="47.0" prefWidth="317.0" textFill="#f40202" />
+                                 </children>
+                              </AnchorPane>
+                           </left>
+                        </BorderPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button fx:id="quit" layoutX="955.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#quitProgram" prefHeight="21.0" prefWidth="43.0" style="-fx-background-color: #3c2a7a;" text="Quit" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="logOut" layoutX="899.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#logOutUser" prefHeight="21.0" prefWidth="55.0" style="-fx-background-color: #3c2a7a;" text="Log out" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="langEn" layoutX="838.0" layoutY="4.0" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#setLanguageEnglish" prefHeight="21.0" style="-fx-background-color: #3c2a7a #3c2a7a;" text="En" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="langFi" layoutX="838.0" layoutY="4.0" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#setLanguageFinnish" prefHeight="21.0" style="-fx-background-color: #3c2a7a #3c2a7a;" text="Fi" textFill="WHITE" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
