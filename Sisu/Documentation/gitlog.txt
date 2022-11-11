@@ -1,0 +1,1706 @@
+commit 11abfc0eb831285775cb97e9a323386df253dbb8
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon May 2 13:03:17 2022 +0300
+
+    Vielä yritetty Travoltaa kaikkien kaveriksi pomia muuttamalla. Javafx graphics ei vain tunnu toimivan samalla versiolla macilla ja windowsilla. Päivitetty javadocs.
+
+commit fc9b46ce30552d0cb75c222fc93fdda68286f93a
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon May 2 13:02:50 2022 +0300
+
+    Vielä yritetty Travoltaa kaikkien kaveriksi pomia muuttamalla. Javafx graphics ei vain tunnu toimivan samalla versiolla macilla ja windowsilla. Päivitetty javadocs.
+
+commit caf2adcf2deec5959666d1bafbaa1108389bad57
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 20:54:26 2022 +0300
+
+    Tehty varmistusikkunasta suurempi ja sen koosta muuttamaton
+
+commit 55c1caa4a43ee17810746f9c546b54a137bb3037
+Merge: 95a06d3 ec3264e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 19:31:19 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 95a06d3f64be737186080e5a51edfde5af99efaf
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 19:31:02 2022 +0300
+
+    Muokattu pipeä, meneekö läpi vanhalla groupidllä
+
+commit ec3264e6bf34fdfce2f4bef0daf3d279293f5439
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 19:25:44 2022 +0300
+
+    Update .gitlab-ci.yml file
+
+commit 6a2fa4e96265b8f6f2475d71b01c39d46df6273e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 19:16:59 2022 +0300
+
+    lisätty surefire plugin, niin nyt IDE löytää kaikki testit
+
+commit 232bf34afcd1b9b35aa43788fd6256f1c44a86b9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 18:45:48 2022 +0300
+
+    lopulliset (tm) Javadocsit oikeaan kansioonsa ja pom säätöä
+
+commit 4ec70e4b0557d8750f25ac5fffb1b72c95d154ca
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 17:55:06 2022 +0300
+
+    putki ei toimi - johtuiko pomin classifiereistä. Linuxille nyt omansa
+
+commit 52b73792d5fd3e9d9b150abba902a980e0899d42
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 17:41:53 2022 +0300
+
+    classifierit tehty javafx -graphicsiin win ja mac. Toivottavasti testi ajetaan jommalla kummalla
+
+commit 421119aec5703f01795c98d1e180d375575d9cbb
+Author: Viljami <viljami.irri@tuni.fi>
+Date:   Sun May 1 17:28:33 2022 +0300
+
+    pom-update for travolta
+
+commit 339003fecbf51329057d8917e75dd5621d77ea4c
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 16:56:42 2022 +0300
+
+    No vielä kerran sortin compareTo:n korjaus. Nyt ei vertailla keskenään eri moduuleita ja kursseja
+
+commit cda0b2840f98ac7288553a2fb8369b9d41aed043
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 16:22:48 2022 +0300
+
+    Korjattu compareTo peryttämisongelma + sort
+
+commit 76084e04b40c0e88892e00b1f376907d5ac0b36e
+Merge: 6c2b69a c7fd6e8
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 16:05:45 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 6c2b69a40a5a0a058ecd59d5b4f819bb8bb4847f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 16:05:23 2022 +0300
+
+    Korjattu joillakin Travoltan aiheuttama virhe?
+
+commit c7fd6e89f6a1e39d9daeffb3cb2304433baefae4
+Merge: 79ae72a 6162936
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Sun May 1 15:49:15 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 79ae72a077a7e78d84ac6b75e24ec53f77d5858e
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Sun May 1 15:49:04 2022 +0300
+
+    Fixed bug where success text wouldnt go away
+
+commit 61629363487ab16c15ed48a9de76f00ecb477498
+Merge: 68c542c 1b7e8a0
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 15:26:17 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 1b7e8a0d0bf37f55dc3dabee2e5489aa8a07b833
+Author: Viljami <viljami.irri@tuni.fi>
+Date:   Sun May 1 15:26:01 2022 +0300
+
+    added documentation for validation helpers
+
+commit 68c542c6f71a9ebdb4972a93a514a28a9fbe1bc9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 15:26:01 2022 +0300
+
+    profiilin tabit muutetettu sulkemattomiksi
+
+commit 9c52d2b98624ab7e040954645aab4531abbab13d
+Merge: fccc713 76c0ca9
+Author: Viljami <viljami.irri@tuni.fi>
+Date:   Sun May 1 15:09:21 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit fccc7135b9d8ec60da49d0bd9a27abb3b68b7aed
+Author: Viljami <viljami.irri@tuni.fi>
+Date:   Sun May 1 15:08:26 2022 +0300
+
+    validateFields more strict
+
+commit 76c0ca9ed42b9433d658de2f49c9111eda4c8335
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 14:58:31 2022 +0300
+
+    lisätty Attainment -panen piilotus Main windowiin tultaessa
+
+commit 70d2358378c5c437acfe9de2aa4f69058a6a5f06
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 14:51:07 2022 +0300
+
+    Vähän lisätestejä
+
+commit 76f2f80dc5628f023d105c0568b490b6815b4197
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 13:42:10 2022 +0300
+
+    Replace README.md
+
+commit e53ad285286cc08b8364efefa6444e5a9931907e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 13:40:17 2022 +0300
+
+    Replace README.md
+
+commit cb7289dcdf13e46d884ed24752fa2a7b07b8a5d0
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 13:39:31 2022 +0300
+
+    Replace README.md
+
+commit fe7828dc7eeb1a7d6a72878471fd75ae388377b4
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Sun May 1 11:56:40 2022 +0300
+
+    Added documentation
+
+commit 1b84dfb7c0f3c81ac76cd6b84f7e2efb7e2090cf
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 09:21:17 2022 +0300
+
+    Module-info vielä paikoilleen
+
+commit 693b73dfa3819e289147f805d231b4ae7d721a40
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun May 1 09:20:22 2022 +0300
+
+    palautettu groupid jälleen kerran, luotu javadocsit Sisu.javaan, ParseData.javaan, mainWindowController.javaan ja AlertDialogController.javaan
+
+commit 31a33afc9350b9b9c9e91f5a220216acf2da7739
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 23:27:25 2022 +0300
+
+    ryhmäid uudelleen, sonarcube pois
+
+commit aba3ebb4740b01d85ee57dac0e169c8e3a98b89e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 23:18:58 2022 +0300
+
+    juu äkkiä groupid takaisin...
+
+commit 00479a10cb7844ccc44efbf49972676e854f578c
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 23:10:02 2022 +0300
+
+    javadocsia, sonarcube depedency, pom ryhmäid:n päivitys
+
+commit 9c1b1ba91b80482fa077ca94980b680a8d9fc5f2
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 22:57:09 2022 +0300
+
+    Delete settings.json
+
+commit 18ccfe8fa86669234b58f76be238e12f09f07cc4
+Author: Viljami <viljami.irri@tuni.fi>
+Date:   Sat Apr 30 21:23:30 2022 +0300
+
+    Refactored isStudentOnTime to getCreditsPerPeriod, general cleanup
+
+commit 25f329580e0b67f48fe463f1ef708a8cb273c0f5
+Author: Viljami <viljami.irri@tuni.fi>
+Date:   Sat Apr 30 20:57:36 2022 +0300
+
+    Tests for Course, Attainment and Student classes
+
+commit c2a41bc2159a330612fcd921ba37a3680f9199c6
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 19:16:34 2022 +0300
+
+    optimoitu eng tutkintojen haku niin, että niitä ei tarvitse hakea uudelleen korista joka kerta
+
+commit 9cba29f65cd8615823fce08878ccc07a14723377
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 19:09:10 2022 +0300
+
+    Korjattu virhe, jossa tutkinnottoman kielen vaihtaminen saattoi aiheuttaa poikkeuksen
+
+commit 0d83eeca33766167b5c8d696c07670a4074790d9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 18:47:18 2022 +0300
+
+    Siistitty ParseData ja Sisu.java. Testattu eri käyttäjävariaatioita ja korjattu erinäisiä isompia ja pienempiä bugeja
+
+commit c42bd2f85fb992032303fe39eabd0ef89f0ae212
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 17:49:29 2022 +0300
+
+    siivottu MWC -koodi + poikkeukset
+
+commit d313cd24ef8aff06e6a64ad3d9446af463f61dc1
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 17:23:17 2022 +0300
+
+    Vähän tuhdisti siivottu. Check -merkki meni pesuveden mukana. Palautettiin
+
+commit 44cb803f6f25c79e8eb23c2ce620e8df40c644c9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 17:14:08 2022 +0300
+
+    Korjattu ongelma, jossa suomenkielinen degreelist oli vanhaa käyttäjää ladattaessa tyhjä
+
+commit ff7980cac972dd47361ff34acdc5704049566653
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 16:38:06 2022 +0300
+
+    Poisteltu jo tarpeettomia testitulosteita ja käyttämättömiä osia
+
+commit f61e973a54eb565db9de07a63c2c83759ff381f9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 16:25:05 2022 +0300
+
+    Siirretty kielenvaihto ParseDataan, tehty kielestä privaatti ja asetettu käyttäjä aina aloittamaan suomella
+
+commit a8c2f92e57bbc1441454d725cc84ff06e889d737
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 15:47:23 2022 +0300
+
+    Luovutettu progressBarin kanssa ja siivottu jäljet
+
+commit f9b1b7fb1d493f813c9920a96cced238c8672f65
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 13:43:40 2022 +0300
+
+    lisätty monikielisyydentuki ja sille nappulat ja metodit
+
+commit 96429613102c850f638af8eb957c5b3ca8685a47
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 02:46:44 2022 +0300
+
+    Varmistusdialogi poistolle (ristihandlays atm) ja korjattu tukku varoituksia
+
+commit add2d79352f2caf65f772d29ca567f071434fc66
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 30 00:38:56 2022 +0300
+
+    Sorttaus kurssikoodijärjestykseen treeviewissä kunnossa
+
+commit ec488cba51b81a4b3590ed40e8bd3aa1922d7f87
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 29 18:24:41 2022 +0300
+
+    Kommentoitu deleteU pois, jotta kääntyy. Teen varoitusikkunan ja metodit valmiiksi, kun palaan sen sorvin ääreen
+
+commit 67de56a8ed8b004ad04a312bca8c91f257682499
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 29 17:36:24 2022 +0300
+
+    optimoitu hakemaan degreelist intron aikana
+
+commit d469543a6eb486bea1ada7d23da905c33915855e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 29 17:10:38 2022 +0300
+
+    handler for removeStudent
+
+commit da5b15fa8b2dba75d58e0baeb5ab2d7db8c5f9be
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 29 10:41:18 2022 +0300
+
+    merge conflict solved
+
+commit fa03cfd3536fcdec81bfcfa284c1fdddd86a8575
+Merge: ae85b70 029e207
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 29 10:37:16 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit ae85b70d9c7f2978f86c9a12c296c9a1924f0538
+Merge: d70de72 9c68a31
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 29 10:37:02 2022 +0300
+
+    mergeä
+
+commit 029e207e530523d44f941aba2b5975493d632dda
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Fri Apr 29 10:31:25 2022 +0300
+
+    Change path to right file
+
+commit d70de72e15ce5871e11dd786395309971ea2be7d
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 29 10:25:51 2022 +0300
+
+    Kielikokeilua osa 1)
+
+commit 9c68a31de39cbacb8a50629b07c23aeea39e79e6
+Merge: 97c119b 7fc7b25
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Fri Apr 29 10:18:43 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 97c119bd7aeb84b1e118fbf63e73c72b08dd396c
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Fri Apr 29 10:18:30 2022 +0300
+
+    Save changes when modifying user info in my profile
+
+commit 7fc7b259279c8338c595489774b95f65a77e1936
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 29 09:44:28 2022 +0300
+
+    Siirretty resurssit niiden kansioon ja muutettu Mainista Sisu sekä poistettu malli-Sisu
+
+commit 994549db4ab4c2352fa57111932f7e38cb3b0b99
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 22:49:35 2022 +0300
+
+    Korjattu tyhjien näkymien ongelma. ;)
+
+commit eac585d6970cb61d1b569ab6d37b2777c7559bf2
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 21:48:59 2022 +0300
+
+    Lisätty opiskelijalistan tyhjennys. Korjattu tyhjällä degreellä kirjautuvien käsittely
+
+commit 728c7b007ea7cd5ca37144c403e4dda73ea3dfa3
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 28 20:44:58 2022 +0300
+
+    The upcoming periods of the current year are deleted according to the current period
+
+commit 4ed2da55311166844e5afa8a0316af1692c49688
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 20:39:21 2022 +0300
+
+    logouttiin lisätty currentstudentin tyhjentäminen, ettei tule duplikaatteja
+
+commit c9dca439ccae20937dfe8be0841ac55753084324
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 19:55:49 2022 +0300
+
+    Lisätty virheen kaappauksia jsonin lukuun ja ennakkotarkistus descriptionin osalta
+
+commit 1c00943c8cbe0b372ae290e71a9ec0a31aa541cc
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 19:12:20 2022 +0300
+
+    lisätty kolmas käyrä, eli nyt alkuperäinen tavoite, toteutunut ja tulevaisuuden ennuste
+
+commit 082a9d53e54e5a84f110cd28056af5ab1b7fe11a
+Merge: 6fea943 08e7e1a
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 18:36:58 2022 +0300
+
+    upstream pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/group_template_project
+
+commit 6fea943b808126e9745a109769dfb3b0cf27ba67
+Merge: edce6be 8287bcd
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 18:33:56 2022 +0300
+
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 8287bcda9ffce9d9b4c8176373ae040fddddd813
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 28 18:32:57 2022 +0300
+
+    isStudentOnTime return value from int[] to double[]
+
+commit edce6bec8c831ab4a304d81cc7029a758d64ec57
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 18:32:03 2022 +0300
+
+    puun kurssit sortattu aakkosjärjestykseen
+
+commit a962491a54122a3308b9797f874a9a954e5b9fef
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 28 18:11:50 2022 +0300
+
+    divisionByZero fix, periods with no attainments have a credits value of 0
+
+commit 0357539fe09a2fc4af7fafc82496a1ebd5d345a3
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 28 17:52:40 2022 +0300
+
+    another small fix to isStudentOnTime
+
+commit 3850cda4071de7630e4bba0da204162169cbd4f7
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 28 17:47:13 2022 +0300
+
+    oops mistake
+
+commit 553525aae68eac4b95f1e3dd6785c25cf28f11f7
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 17:37:45 2022 +0300
+
+    lineChartin viimeistely synkronoinnin jälkeen
+
+commit da17b00b01ebb5e4d0440810cf989a9bb3952e20
+Merge: 060099f c6bede6
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 17:34:19 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit c6bede65f97b129ea7c9c00db97c355d80c8e144
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 28 17:33:53 2022 +0300
+
+    isStudentOnTime reworked
+
+commit 060099fe909ac75daa6702c015d07bad2ff5625f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 17:32:50 2022 +0300
+
+    save ja logout toiminnallisuus tehty. Linechart tehty
+
+commit 408544a559abdb3d622857536e3ad10dcd873ec9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 16:15:35 2022 +0300
+
+    lisätty handlerit logout, save, quit ja delete painikkeille
+
+commit d0defe7c544c08fdde7d96f9154b9ca083d62c4b
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 15:52:32 2022 +0300
+
+    profiilisivua päivitetty. tehty tabit kuvaajiavarten
+
+commit 5ae8412c2dc22ae120151889365df8b200b729ee
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 15:15:12 2022 +0300
+
+    Attainmentin syötteeseen lisätty hyväksyttyjä vaihtoehtoisia palautteita
+
+commit 08e7e1a9fb21b75da786dc359afc9b77e87413c2
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Thu Apr 28 15:07:43 2022 +0300
+
+    Sonarqube-check out of pipeline
+
+commit 5caefd9fa7b078c6d144f368403355e00e7b91df
+Merge: 93d4272 8282d9d
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 14:54:15 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 93d4272f899daf26507fe887f10bccda88cb9eea
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 14:52:28 2022 +0300
+
+    Päivämäärävaihtoehtoja suorituksille rajattu. Arvosana ja suorituspäivä näkyvät nyt attainmentPanessa
+
+commit 8282d9da790baa96d2da53ed6b66f74576e4306c
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 28 14:03:27 2022 +0300
+
+    null checks for methods getDate and getGrade in Student
+
+commit f3d9a4788a60fc5dab811d2e0e25a33d2add54c6
+Merge: 4d56003 c58b40f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 13:57:10 2022 +0300
+
+    mergepull
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 4d5600321026ebca7ad23085eebf11416d529cab
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 13:57:02 2022 +0300
+
+    muutettu Suoritusten keskiarvoksi -- , jos keskiarvoa ei ole saatavilla
+
+commit c58b40fff8224753e43fd9ea2e21dc70a654f0ab
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 28 13:54:31 2022 +0300
+
+    new Student methods getDate and getGrade, private method findAttainment, cleanup
+
+commit 7fffc0050c70d5ede3657e102966a4d721894a4f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 13:42:46 2022 +0300
+
+    Korjattu virhe, missä kursseja ei tunnistettu suoritetuksi, jos ladattu olemassa oleva käyttäjä
+
+commit f24674c425723f596eb7dd9cd8d0b53ad995438d
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 11:09:42 2022 +0300
+
+    lisätty musta oikealle osoittava kolmio moduulien eteen, joissa kursseja, mutta joita ei vielä avattu
+
+commit 2b3bec2c0fd2baadeab826339ac109896e834791
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 10:44:19 2022 +0300
+
+    korjattu ongelma, jossa expand/collapse saattoi alussa näyttää väärän buttonin
+
+commit 115d3e774e936ce51105d71ff5667341314870fe
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 10:34:48 2022 +0300
+
+    kieli suomeksi, koska alkulista suomeksi. Korjattu ongelma, jossa hateen degreemoduuliin tuplaopintpsuuntaukset jos vanha käyttäjä
+
+commit d0f62abf1884e643083f88cd0c054e24eb07d660
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 28 09:28:47 2022 +0300
+
+    Korjattu virhe, jossa samalle oksalle ei voinut tulla sekä moduuleita, että kursseja
+
+commit 52bf5f76304de63f3fdd5cd83de5c6bbef38a33b
+Merge: dbe15fe d949476
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 20:31:01 2022 +0300
+
+    pullmerge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit dbe15fee17df6c47a2d65de04858042cbc32a7a6
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 20:30:49 2022 +0300
+
+    bugien yleismetsästystä. Puuongelmia.
+
+commit d9494765c9b21ca6d2318c5138d75c385f5c0c10
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Wed Apr 27 19:45:51 2022 +0300
+
+    Accepted courses no longer affect average grade
+
+commit cb1ff71639de5a9dcf399bc32ac79a5789eeb29e
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Wed Apr 27 19:44:24 2022 +0300
+
+    Accepted courses no longer affect average grade
+
+commit 5cd37ae6b92fb041f129dc139d46f84e6482ec57
+Merge: 5ccf19a 65b8d52
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 19:31:25 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 5ccf19afa3781f6bc50cd541f0e88d579ebff7de
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 19:31:09 2022 +0300
+
+    korjattu bugi, mikä esti käyttäjän tutkinnon vaihtamisen
+
+commit 65b8d52ae169250e3698c833ea86977c6e7ed181
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Wed Apr 27 19:31:01 2022 +0300
+
+    averageGrade and allCredits methods for Student
+
+commit 46a2e164b552943893df1bbfd39cc1764d4a03e5
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 18:36:58 2022 +0300
+
+    Korjattu virhe, kun olemassa olevalla opiskelijanumerolla kirjautuva pääsi livahtamaan pääikkunaan.
+
+commit 2a3027e19df6a5783a91a174c42a27ff3c918177
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 18:15:31 2022 +0300
+
+    korjattu degreen matka ja nimi
+
+commit c0c5de363b0c849797f0f3d5573fd85b6c209636
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 17:01:02 2022 +0300
+
+    getcurrenttia korjattu
+
+commit ce97743155d4573e41b936c211870e544e78bb6b
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 27 16:41:36 2022 +0300
+
+    Bring back findCurrentStudent that was deleted accidentally
+
+commit ac2e9a25a364eb96ccbbd7e658d20793052581ca
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 27 16:33:40 2022 +0300
+
+    Removed .vscode folder
+
+commit 0fae955f94e4c713c3021ec49f909dbed77eedba
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 15:58:24 2022 +0300
+
+    Kadonnen degreetiedon lähteillä tallennuksesta takaisin structuresiin
+
+commit f429571bbaa8db32a9e7747df3ac604a5626d897
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 27 14:47:02 2022 +0300
+
+    Save degree to student json
+
+commit f06b30d8ad8e57ecf703cca962bfaafc40521b8c
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 14:33:19 2022 +0300
+
+    Lisätty käyttäjän poisto, logout ja quit painikkeet
+
+commit 1c5b5887674a28187ee1ab43dc1b363bdc30e257
+Merge: 3cf4435 c18255e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 13:03:16 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 3cf44351ca3b960ac6cfd39110842854e2781c21
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 13:02:41 2022 +0300
+
+    expand/collapse namiskat. Sortti ei toimi :(
+
+commit c18255ee30f1df519381f67afd4a24a58c3ef416
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 27 12:25:04 2022 +0300
+
+    Added functionality to sign in button
+
+commit 8de086154415100e8a9a84ab70958a30955e8b2d
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Wed Apr 27 12:21:57 2022 +0300
+
+    Comparable-interface implemented for Student, findCurrentStudent in UserData
+
+commit 5f5201dbebe26cc2dc66ff91c7c20e315ed1a15d
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 11:40:37 2022 +0300
+
+    sorttausyrityksiä ja readfromjson korjaus
+
+commit 36aa9653a42b2edad3087267c6586648d613033d
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 27 10:17:08 2022 +0300
+
+    Fixed bug in UserData and call writeToJson on sign up
+
+commit 3ac54d32e634c807b5f00ef676d0ff5834fc0a3d
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 04:43:28 2022 +0300
+
+    Puun duplikaattien tekemiset korjattu. Suoritetut tutkinnot välittyvät myös toisiin tutkintoisiin paitsi tiedoin niin se check -merkki <3
+
+commit 052e298880cae2fc2fd68b57d978177bca3232e3
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 27 03:42:44 2022 +0300
+
+    piirakan silittelyä. Myös profiilia tuunattu lisää. Tehty lopuntkin handlet attainmentPaneen ja yhdistetty (pl. kommentoidut getCourse ja getDate
+
+commit 77161b5af97a7ba2b185155319f6fae058e704f1
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Tue Apr 26 23:59:45 2022 +0300
+
+    Profiiliin gradekeskiarvo, tutkinnon nimi, suoritukse. Attainment saveen tarkistukset käyttöön, värit, delay...
+
+commit 072ab48e0a7ffaacb5bf6a9498a2d7e904dc6635
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Tue Apr 26 01:16:42 2022 +0300
+
+    Yliopiston - ehkä kaikkien yliopistojen - hienoimmat check -merkit
+
+commit 29c05a76e07c70dbaf0762615daab87aafca525a
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 23:48:50 2022 +0300
+
+    getCurrentCreditsin tuunausta ja pikkubugien korjausta MW:ssa. Piirakka toimii tutkinnot huomioiden.
+
+commit a4db3d307f33329e59e7a041347aca548dd9f938
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Mon Apr 25 21:15:39 2022 +0300
+
+    modified updateAttainment
+
+commit 637b2109d31b35b800737728025a14730ed6f24b
+Merge: a7a73ed 2bc7aa2
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Mon Apr 25 20:03:20 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit a7a73edfc7efdecb715f2a722be38da7c760c0f1
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Mon Apr 25 20:02:41 2022 +0300
+
+    Check if there are users saved and display them in comboBox
+
+commit 2bc7aa265874959f2a35e1f8d5739c9f0437e4a6
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 18:47:03 2022 +0300
+
+    kurssisuoritusten lisääminen onnistuu
+
+commit 9f6712dd5aae23f599af1a633e06feb95fb74fd6
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 17:52:30 2022 +0300
+
+    tehty infotekstit attendance_panen controllereille
+
+commit 941ebc57243bfcfd58333a75e611d9ffdcacdf3b
+Merge: c669b20 0089d4f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 17:45:44 2022 +0300
+
+    merpu
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 0089d4ff3ab005a087bf68cd83565fb8c53e42e4
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Mon Apr 25 17:36:03 2022 +0300
+
+    updateAttainment method for Student, two setters added into Attainment
+
+commit c669b204f3fa6496e55d920867a3eaac97ea84dc
+Merge: c531873 ddaef7f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 17:00:49 2022 +0300
+
+    pelottava merge pull
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit c5318739edfa86167c344c8e8c60e57d2da5466e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 17:00:29 2022 +0300
+
+    turha file pois
+
+commit 57e971531c2bf4c09cb5d38d1bca316ba6c002d5
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 16:59:49 2022 +0300
+
+    yritetty checkkiä vihreäksi, mutta ei meinaa sykkiä
+
+commit ddaef7f8b0d05e34f563677ecce28f1442029bb3
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Mon Apr 25 16:23:43 2022 +0300
+
+    Course-class contructor fixed, readFromJson updated, signUp input validation more strict, general cleanup
+
+commit b8b24eff11e524fbb0051525e9bff3b59a426622
+Merge: 3310641 eca01c1
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 14:46:08 2022 +0300
+
+    upstream pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/group_template_project
+
+commit 331064189cd3b654f16be39a8ef90a81de1d670a
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 14:45:40 2022 +0300
+
+    AttendancePanen handlerit ja kutsut tehty
+
+commit eca01c1ad9532dbca45f90b8effb6304972c4abc
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Mon Apr 25 13:55:56 2022 +0300
+
+    Testing with debug
+
+commit 5c0bd3d34b83878bf199a9949a38c3e47b0da6fd
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Mon Apr 25 13:53:04 2022 +0300
+
+    Testing with correct permissions
+
+commit 5d83e01a1d70c7d5a63e6bfda8194703b9dae020
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 13:30:22 2022 +0300
+
+    Lisätty kurssiin override toString tulostamaan check -merkin nimen eteen, jos kurssi suoritettu
+
+commit 08f3d6dec2621aa6420e2fe1f4331d69791f7c4a
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 11:00:51 2022 +0300
+
+    ja korjattu niin, että edellinen commit vielä kääntyykin...
+
+commit becfa954ac3aeb6c5a0d3eb629478c39d24e01a3
+Merge: feecd4c 03ed982
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 10:55:23 2022 +0300
+
+    pullmerge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit feecd4ce83ac2ef7f1ce16beb600e5f952b93bf5
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 25 10:55:09 2022 +0300
+
+    showGrades boolean lisätty Courseen indikoimaan onko hyv-hyl vai 0-5. Javafx version kontrollituloste Mainiin
+
+commit 03ed982852f85cc123ba843712f481e391b9303e
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Mon Apr 25 10:11:04 2022 +0300
+
+    Changed current Student to UserData file
+
+commit fbfacfaab328aad5d07943eafe166af5c8a872f1
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 22:49:47 2022 +0300
+
+    handlerit ja id:t muillekin controllereille attainment_panessa. Suoritetun kurssin tarkistaa. Gradet kaikissa 1-5.
+
+commit d80e8b78f0936961e541718fb3befc99c162fe5b
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 22:08:46 2022 +0300
+
+    lisätty info-text descriptionin yläpuolelle ja huomioitu attainment_panen näkyvyys
+
+commit d039505f93ff0aec4817770de85d48f90d563c69
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 21:23:53 2022 +0300
+
+    Uusia elementtejä structureen: webview (info), completed, date, grade
+
+commit 8e2b0a9e2d3823d0c3fa86c434cc134266282694
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 20:24:36 2022 +0300
+
+    Korjattu vielä moduulien atribuuttibugeja. Tässä kohtaa toimii - vielä
+
+commit a6dd51df46e29dbc6aa12e2676fb546012b5e3b9
+Merge: a7c006c b9cc10f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 19:52:49 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit a7c006ca0162debb22ebc9ab99ce30d6d98e9167
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 19:52:38 2022 +0300
+
+    moduulien rajattujen attribuuttien aiheuttamia korjauksia
+
+commit b9cc10f7de31f99933260dfd9da9ac4b327218d3
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Sun Apr 24 19:29:42 2022 +0300
+
+    Switch tab when clicking save and modified error label
+
+commit d81579dfdda2624c084f5eabdb3d0175f3cc0f43
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 17:41:24 2022 +0300
+
+    Tehty tyhjä rakentaja kurssi -oliolle ja muutettu vastaavasti createCoursea ParseDatassa käyttämään settereitä
+
+commit 8300901208b04ed4b3718f7ed2b5545ab4e97287
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 16:39:47 2022 +0300
+
+    Tehty uusi abstrakti yläluokka, SisuItem, kursseille ja moduuleille sekä järjestelty toiminnallisuuksia loogisemmaksi
+
+commit c87209655974e0081a890a68ead0ab7d3ce88912
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Sun Apr 24 15:54:45 2022 +0300
+
+    DegreeProgramme-attribute for student + added methods
+
+commit d08f69b063b992eea11c7bb3a6f3840716ab6295
+Merge: a5adcc7 3dec130
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Sun Apr 24 14:45:57 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit a5adcc74efec08a85455f0e64d7cefad28549bd8
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Sun Apr 24 14:45:44 2022 +0300
+
+    Modified signUp page look
+
+commit 3dec130bb144c0c1773e21865785e2af8fd33ea9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 14:05:32 2022 +0300
+
+    lisätty gson module-infoon
+
+commit 464b31143e5df075fcf7664d89d9f165a63d0595
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 13:50:54 2022 +0300
+
+    päivitetty vielä Mainia ja korjattu ParseDataa. Nyt manuaalimerge tehty sandboxista. Tarkemmat commitit sieltä haarasta
+
+commit e401ab31bc6ee97e261ee8952dafaa1d7574cca3
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 13:33:21 2022 +0300
+
+    parsedatan päivitys
+
+commit 4aebe785b2fd5ea93941a1c42e49b7535f9d1921
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 13:21:00 2022 +0300
+
+    moduulien päivitys
+
+commit c329eb78ba957637484e67d26470ea29950f6397
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 13:14:43 2022 +0300
+
+    intron ja module-infon lisäys (taas) ja gitignoren päivitys
+
+commit 94b50a72c478fb14108f4c883d6b11333ca6f1c3
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 13:08:56 2022 +0300
+
+    pom:n päivitys
+
+commit 487ffb7e399ed399c69541765c06e68fa1b008c8
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 13:06:59 2022 +0300
+
+    mainWindowControllerin isompi päivitys
+
+commit 12cef4fee19fdd960251669a2013e18e01d910e0
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 24 12:57:10 2022 +0300
+
+    Kokonaisvaltainen mainWindow.fxml päivitys
+
+commit 37028f11a46e7494a380a8c109ff75b77ca55989
+Merge: c5a9540 81e8ad2
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Fri Apr 22 19:17:38 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 81e8ad2a91b035bc4ac1196a318c06f8d50ffc5e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 14:59:38 2022 +0300
+
+    ja korjaus gitignoreen
+
+commit 896e735315ed2be2f01deba5659299494cb677f9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 14:44:29 2022 +0300
+
+    ei meinaa pysyä kotona
+
+commit 68cb7cb21001053d4601884b9347bec4a2076c39
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 14:43:15 2022 +0300
+
+    degreelistan tietojen päivitys ikkunaan. Testataan samalla pysyykö modules kotona
+
+commit d9ddbce1e2a4849cbb9c2672283b7f9e55beaf87
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 14:22:52 2022 +0300
+
+    uusi yritys...
+
+commit 973ceb38a8939cd97af93e129743f0d448510a94
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 14:18:50 2022 +0300
+
+    gitignore päivitys
+
+commit 247ab3c9c35ce399beed7f9db6d14b4bbf003ebe
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Fri Apr 22 14:11:38 2022 +0300
+
+    degreeSource URL opiskelijaan, userdata muokkaus
+
+commit cfe288adea5a1a2717e9b6aa64be7636a22ad625
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 14:07:43 2022 +0300
+
+    poistetaan module-info kiusaamasta 2
+
+commit bddafcc7d73af3f1c5d3961a904b7ae497bd05ae
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 13:54:37 2022 +0300
+
+    UserData testiajo
+
+commit 524aee137c3e90d8e0533f34702b63ca1f20260f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 12:00:40 2022 +0300
+
+    update push. Suunnitelmissa uusi haara
+
+commit 0afca02da59048dde66306c05c341b8f2840885a
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 10:21:45 2022 +0300
+
+    Erilaisia testejä kuvausten formaatin muuttamiseksi
+
+commit 790462f75bd6b07aeba3bc0a22b8a9f2fdf0d954
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 22 00:20:47 2022 +0300
+
+    Siivottu, poistettu tarpeettomia tarkistustulosteita, kommentoitu, päivitetty javadocs
+
+commit 20346293bfd8b1e55b636247bab5e352c4e5fc2f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 23:29:38 2022 +0300
+
+    Lisätty myös kurssien haku lapsiksi, vaikka heti alussa tehtynä (ei kokonaisuus kerrallaan) hidastaa sikana.
+
+commit e9fec1773554c58f9bcf6e17105037418b582be8
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 23:11:30 2022 +0300
+
+    Korjattu bugi parserissa, kun grouping modulen description puuttuu kokonaan. Luotu MWControlleriin getChdn rekursio puun purkamiseksi
+
+commit a6cb6f79ea17e6a857d5f2e8f7268d4a6e5c020c
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 21:43:59 2022 +0300
+
+    kokeillaan laittaa module-info, niin pystyy debuggimaan GUIta
+
+commit 628e457e928cc535988d253c41ae019708187800
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 21:15:03 2022 +0300
+
+    Savepoint ennen säätöä
+
+commit 13446b9ad10a9803f8e2eb3337f74b1e8e58d609
+Merge: 955d248 e782ffb
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 18:22:09 2022 +0300
+
+    pullmerge??
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 955d248df9d0f5aa47e2179e644fd7aa4cf47839
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 18:21:25 2022 +0300
+
+    courseUrl:t saatu listaan
+
+commit e782ffb3ab490087f701760e3fa4810ba0165959
+Merge: 068b160 fb7c85d
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 21 18:07:10 2022 +0300
+
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit fb7c85d4e662d9f2a1ebf69867a1ef5206c1b1b8
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 18:03:53 2022 +0300
+
+    ajantasalle konfliktien välttämiseksi
+
+commit 755c63c609eb5c3605c71355c1813e36ea4f4939
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 17:57:39 2022 +0300
+
+    StudyModule descriptioncheck
+
+commit 068b1604eb48a4c5433cb5aa8fdead822284c602
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 21 17:47:46 2022 +0300
+
+    signUpController korjaus, turhan koodin korvaaminen/poisto
+
+commit 1079f5105d7e2292a278a697268b6cc57cf52d34
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 17:46:59 2022 +0300
+
+    studyModulen description
+
+commit 61dc3e058529d78643b69f46d901c0a56f2d4def
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 17:38:35 2022 +0300
+
+    Kurssiurllistan lisäämisessä probleemia, koska siinä kohtaa käytössä jo modules -luokan olio
+
+commit c5a9540d2eaa6eb54026c6a562bf5c23d9d4b7eb
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Thu Apr 21 17:32:46 2022 +0300
+
+    Changed myProfile tab textfield appearance
+
+commit de6022dc067dcbddc326c3088bd4b8cb2dd5399e
+Merge: 8ae9d04 49227f2
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Thu Apr 21 17:22:39 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 8ae9d049c00a310dc0614ad664d3eba35c3a9533
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Thu Apr 21 17:22:21 2022 +0300
+
+    Modified myProfile tab and connected signUp page to it
+
+commit 49227f22e63d0cc85431b8b1f99f8c01f44d8002
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 17:08:23 2022 +0300
+
+    Nyt vasta mergeconflictit korjattu (kai)
+
+commit c84976f8ccfd784c97a81ae9a93b5ac8c51a720c
+Merge: 0dc2795 96c91e4
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 16:51:54 2022 +0300
+
+    jaa-a. Sitten mergeconflictia...
+
+commit 0dc2795ed585829afa837552114b69f0c30af680
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 16:49:39 2022 +0300
+
+    GroupingModuleen description
+
+commit 96c91e4e7a95ff8af1c2dc53043f3832ec8f5263
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 21 15:26:48 2022 +0300
+
+    UserData-related overhaul
+
+commit 37f763b715e8da6716df537b0e06a34a82030dc3
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 21 14:54:06 2022 +0300
+
+    Muutettu, että kurssiolioiden haun ja luonnin sijaan tallettaa vain listan kurssien URL:stä, oma metodi json -tiedostojen haulle
+
+commit a076f214dc15893cd15bc23807e491e9478b611c
+Merge: 280f971 030deb8
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 21 14:29:03 2022 +0300
+
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 280f97137d9d67521d94fcdd3f85aefb4d68dbbb
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 21 14:28:50 2022 +0300
+
+    Student-luokan muutoksia
+
+commit 030deb89de07e64e668b979c7347a29015e407e2
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 20 19:32:06 2022 +0300
+
+    javadocs updated
+
+commit 76920e6dc8e7b7e2f04c6c6465ac29961178bcb4
+Merge: 8eb908c ddbb60f
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Wed Apr 20 19:27:01 2022 +0300
+
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 8eb908c686c4f16322abef22b60b7f65a0bd3585
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Wed Apr 20 19:26:43 2022 +0300
+
+    UserData-luokka, muokkaus Attainment-luokkaan, .gitignore-päivitys
+
+commit ddbb60f30c11234971dc42786e49aaea02025f94
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 20 18:52:06 2022 +0300
+
+    Otetaan vielä se automaattinen kaikkien tutkintojen lisätietojen haku pois...
+
+commit 639c2a9267b98f6e3e55c66c6237df0baae46e5f
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 20 18:46:45 2022 +0300
+
+    Tehty degreen täyttömetodista julkinen, jotta tiedot täytettävissä vasta tarpeen tullen
+
+commit 3de3bf81f335f7afb396f9a9acc74115193a39c8
+Merge: 4c036a1 6a21ae4
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 20 18:38:33 2022 +0300
+
+    upstream pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/group_template_project
+
+commit 4c036a1a5ba6e40527faaca0769a14c7707b42f7
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 20 18:38:03 2022 +0300
+
+    Haetaan lisätietoja DegreeProgramme -moduuleihin. Hidastuu merkittävästi
+
+commit 53f101880bda7dfa9f33aab0e53a7053188554df
+Merge: 3dfd1ef 0189429
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 20 16:15:44 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 3dfd1ef37b8c99197dc72cefd831e89dc76ac2fa
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 20 16:15:28 2022 +0300
+
+    Added treeView and logic
+
+commit 01894295fe26bf9b12970592b1d2d0d585ca019c
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Wed Apr 20 15:11:29 2022 +0300
+
+    description attribuutit DegreeProgrammelle ja StudyModulelle
+
+commit 6a21ae4c3cee4c3b6797e5b593b8478d72a3283b
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Tue Apr 19 21:58:12 2022 +0300
+
+    Return default values
+
+commit a6af76f6eb04383498137434df7b296ae710b150
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Tue Apr 19 21:42:32 2022 +0300
+
+    Correct filepath, again
+
+commit cfe3e5b1a990b88f0b0fc6ca1a177f9c07f1b1c7
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Tue Apr 19 21:39:58 2022 +0300
+
+    Correct filepath
+
+commit 33d004a2736c147138e77e0aa5db3a975157419b
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Tue Apr 19 21:37:33 2022 +0300
+
+    Run Sonarqube without tests
+
+commit 211d0a58625b30ddf14b6a96f9b0ba4fe921e29a
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Tue Apr 19 21:32:08 2022 +0300
+
+    test wit allow failure
+
+commit 65fc003067d7e4827c9150e272b7c909e1f72af6
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Tue Apr 19 21:18:18 2022 +0300
+
+    Changed paths
+
+commit 216095519006029bcd522086149deaa93a365343
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Tue Apr 19 21:12:53 2022 +0300
+
+    Enabled sonarqube
+
+commit 4ea046ef4a9d42b73f89270b8d1f92485eb9bad6
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Tue Apr 19 21:11:24 2022 +0300
+
+    More detailed paths
+
+commit c30bd0bd0c7e557be9364a2a010a703bfd9eeeff
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Fri Apr 15 16:09:27 2022 +0300
+
+    Added info-text when clicking on degree programme in list
+
+commit 52353f95153e69493f5b3738ec2393d21204a332
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Thu Apr 14 16:20:02 2022 +0300
+
+    Added real programs to listView element and changed window size
+
+commit 5ebb9b8b64056178c80d63834d2de3919c7c999a
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 13 14:28:21 2022 +0300
+
+    Added controller class for main window and updated degree programme tab
+
+commit e1a14f9e1a6551a4f32c9bc7148957288627b38b
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Wed Apr 13 13:44:06 2022 +0300
+
+    Added multi-tab layout to mainwindow
+
+commit 098438582bf54a9da484f12ac6e9833ba88ad000
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Tue Apr 12 12:50:49 2022 +0300
+
+    Pipeline testaus failaavalla testillä
+
+commit 903bf8f2bfcb5924ac5f5dd9f43c86604f077910
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Tue Apr 12 12:43:54 2022 +0300
+
+    URL -testi)
+
+commit 2e96949900bec95c0ff039cffee2d3f1a1398d3b
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Tue Apr 12 12:26:59 2022 +0300
+
+    Tehty alustus testien kirjoittamiseksi
+
+commit 87afc1752a55312fe9501e9568d0630d37654b1e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Tue Apr 12 11:38:16 2022 +0300
+
+    Javadocks
+
+commit 11a48c93c32b80ee2fd2e11489cdd1df209d0203
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Tue Apr 12 03:40:18 2022 +0300
+
+    Dokumentaatiota ja samojen kurssien/moduulien haun estäminen. Hakuopeus yli 10x.
+
+commit d4e0fc9f0ee0374bb0d89a8fe455d57b71330c83
+Merge: aad4446 b100d2c
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 11 20:06:38 2022 +0300
+
+    upstream pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/group_template_project
+
+commit aad444603a96a968cb48674ac9a7e099bedd15bf
+Merge: ce06670 077b285
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 11 20:05:50 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit ce06670b3bdf434fbb75d86872f03d8711af9db5
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 11 20:05:38 2022 +0300
+
+    Lisää null -käsittelyjä ym. poikkeuksellisia rakenteita. Kaikkien tutkintojen tiedot tulee ilman poikkeusten heittoa.
+
+commit b100d2c7011d09314ee26d6873d4e631c075b19c
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Mon Apr 11 17:49:45 2022 +0300
+
+    Returned to original values
+
+commit 904568a5687d20e7c47f7f842405f2e2537cd987
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Mon Apr 11 17:26:23 2022 +0300
+
+    Added path for test-classes
+
+commit d32fee65837eb2bcf82feaa65d3c2abba829d751
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Mon Apr 11 17:10:31 2022 +0300
+
+    enabled sonarcube-check
+
+commit 12e387b342dfc1ae02cdc8a344f73a2dd20a1cc1
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Mon Apr 11 16:39:33 2022 +0300
+
+    removed test-classes path
+
+commit 9f3f368644805a90647703f4735ab254975020d1
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Mon Apr 11 16:34:12 2022 +0300
+
+    testing CI target-paths
+
+commit 0d74e99e82d64d4d45e8b9653f9b6c585cb7e7c5
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 11 15:42:59 2022 +0300
+
+    checkLanguage luotu monikielisyydelle ja null -arvojen käsittelylle
+
+commit 1fcf99c9f55c582d052b5dde2a4fdab3376bd030
+Author: haatajaj <joel.haataja@gmail.com>
+Date:   Mon Apr 11 15:11:03 2022 +0300
+
+    target-polku päivitetty
+
+commit 077b285ebe434977a334fecbbf1b957fbe7fd6a9
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Mon Apr 11 14:12:25 2022 +0300
+
+    Input validation of the signUp window
+
+commit bd11b541b953acc0aa2dbc28789f10de3e237362
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Mon Apr 11 14:09:37 2022 +0300
+
+    Ohjelmallinen testisilmukka ja testitulosteita ajonaikaisten ongelmien selvittämiseksi
+
+commit 862b08cf9f807680edaf4360ac8935eaea957b07
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sun Apr 10 17:02:09 2022 +0300
+
+    CreateDegreeTree luotu. Muitakin korjattu niin, että ensimmäinen tutkinto saadaan haettua.
+
+commit c5661c75a6dff4cf041b9ac1f98327d68ab2e84a
+Merge: 2e0f8a0 aab2be3
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Sun Apr 10 16:51:05 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 2e0f8a00fd498daf25dc8840f0b33d36b79213c0
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Sun Apr 10 16:50:37 2022 +0300
+
+    Added simple input validation base
+
+commit aab2be34dda2ad35c2bb36b0d4c5ffad00a43b08
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Sun Apr 10 16:09:18 2022 +0300
+
+    DegreeProgramme methods getUrlRuleList and setUrlRuleList
+
+commit 3e763108c2d99eef11ee740cfa10b307f171ea53
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Sun Apr 10 15:21:58 2022 +0300
+
+    Modules, DegreeProgramme, StudyModule and GroupingModule reworked
+
+commit 76fd2863dfea2540fc3135f8e7564c63c9f45541
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 9 20:28:11 2022 +0300
+
+    Rules pyörähtää kontrolloidussa testissä.
+
+commit 32054484ebb72e87104c208072257aed6eec1ca9
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Sat Apr 9 15:30:34 2022 +0300
+
+    createDegreeTree luotu. GetRules rakenne muutettu, lähtee alkuun pyörimään, mutta kaatuu kurssia luotaessa, alkanee aina arrayllä, koska 'groupid'
+
+commit 6a4bbc4a9c2ce6b65680aa0d6c5823f6237d0635
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 8 19:18:36 2022 +0300
+
+    Kääntyy. Ajonaikaista ropleemia ParseDataa testattaessa. Rulelistat puuttuu vielä myös.
+
+commit 71e4f76bf9b2fd51fbec5f117ef1ce746f21813a
+Merge: ceab6f4 c22da39
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 8 19:05:19 2022 +0300
+
+    Pull merge, kääntyiskö...
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit c22da3983445901f3303b3235b4e5393f876866c
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Fri Apr 8 19:04:49 2022 +0300
+
+    DegreeProgramme - getSource
+
+commit ceab6f43aa8e36b11646c02d6df15effacf882af
+Merge: c626216 1b83463
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 8 18:59:42 2022 +0300
+
+    jaaaa.... pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 1b8346372d0d831d2a82293ee78e88ebb90f194d
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Fri Apr 8 18:58:27 2022 +0300
+
+    Modules, DegreeProgramme, StudyModule ja GroupingModule luokkien toteutusta
+
+commit c626216f3ede7746fa360ee673ce35e4b0691197
+Merge: 7731930 a68fe63
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 8 17:54:47 2022 +0300
+
+    pull merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit a68fe63c3a568a161f776dcf5bf993f28ba31276
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Fri Apr 8 17:53:56 2022 +0300
+
+    Modules, DegreeProgramme, StudyModule ja GroupingModule luokkien pohjatoteutukset
+
+commit fe939050ab18c672e330bb35d81c0672628e18a9
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Fri Apr 8 15:57:51 2022 +0300
+
+    Added second window and a controller class for signUp window with simple logic
+
+commit 77319300669e30ef1462bf1eb6bee27bd79b4533
+Merge: 26434bf 1b28237
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 8 15:34:44 2022 +0300
+
+    upstream pulled merge
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/group_template_project
+
+commit 26434bf2bbac81075aa74bf0ff6a380dd5719a0c
+Merge: a7cf67f a98af5b
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Fri Apr 8 15:34:07 2022 +0300
+
+    poo
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit a98af5b68f482267415e869c50fe7c93fb7ae7ab
+Merge: c352d27 0901fc6
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Fri Apr 8 14:48:46 2022 +0300
+
+    Merge branch 'main' of https://course-gitlab.tuni.fi/comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit c352d27f25a6c79ef757e8ac1da204c141058b99
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Fri Apr 8 14:45:51 2022 +0300
+
+    Modified sign-up page look
+
+commit 1b282370d511c361eaa7b13663599adca025a1c1
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Fri Apr 8 12:07:26 2022 +0300
+
+    Update .gitlab-ci.yml
+
+commit a7cf67fb3d9547dc758f71f61e03746369b7464f
+Merge: f47b558 0901fc6
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 7 18:13:40 2022 +0300
+
+    hh
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+
+commit 0901fc654acf7114e1413d47aea0fd6d950b3f0e
+Author: viljami_irri <viljami.irri@tuni.fi>
+Date:   Thu Apr 7 18:13:20 2022 +0300
+
+    Course, Attainment ja Student luokat sekä .gitignore päivitys
+
+commit f47b558bc813231ebeac9a2ee9ea26ba357cface
+Merge: 5f755d1 e1cbd3a
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 7 17:03:30 2022 +0300
+
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+    jgg
+    :wq
+
+commit e1cbd3a8b44d81471fff6c106aea9d398633d952
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Thu Apr 7 16:53:14 2022 +0300
+
+    Added Main class and fxml file for gui
+
+commit 5f755d18513533deda19b7f18665283138948177
+Merge: 6cde6bf f3d9005
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Thu Apr 7 16:03:19 2022 +0300
+
+    Merge branch 'main' of course-gitlab.tuni.fi:comp.cs.140-ohjelmointi-3_2021-2022/viljamionnirauli
+    jaa-a mitähän konfliktia tarjotaan
+    :qw
+
+commit f3d90052737a6f2ab2170b8aebfd2fff9034de9c
+Author: Onni Hartikainen <onni.hartikainen@tuni.fi>
+Date:   Thu Apr 7 15:58:51 2022 +0300
+
+    Added one-jar plugin and javafx-fxml dependency
+
+commit 6cde6bffd5b0b840eb68b66f716c66ced96d3f8b
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 6 23:06:06 2022 +0300
+
+    getRules -kaavailua. Logiikkaa pitää tarkastaa sis. ParseJsonModule
+
+commit bab47cfb45481b7b001e55d3634f6fc5fba2d0dc
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 6 21:52:39 2022 +0300
+
+    fillTheBasics -apumetodi.
+
+commit 601941de1e4c0f2be1b762d962a06f3e907df738
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 6 15:50:37 2022 +0300
+
+    ParseData.getDegrees tehty. ParseJson melkein ja getRules aluillaan
+
+commit be04ab52ca21061974ae004d9808778bab31c53e
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Wed Apr 6 07:49:02 2022 +0300
+
+    ParseData -luokka luotu. Pom:iin Gson -dependency. Ensimmäisiä lukukokeiluja. Hidaaaas
+
+commit b7ee1229fedb85a2502c71ef7be9d876e113e12a
+Author: Rauli Virtanen <rauli.virtanen@tuni.fi>
+Date:   Tue Apr 5 17:04:14 2022 +0300
+
+    Gitignore done
+
+commit 6c4b351cdb57e4212a609094d084a8f07371249d
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Tue Apr 5 12:35:50 2022 +0300
+
+    Update .gitlab-ci.yml for main
+
+commit 5325151110d3fd9a1e564c41ce8f8194af2a82fa
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Tue Apr 5 12:34:05 2022 +0300
+
+    Update .gitlab-ci.yml
+
+commit 530eac23f68efd8af885f93dca92c2b597a87f89
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Tue Apr 5 12:32:38 2022 +0300
+
+    testing CI
+
+commit e6e65a65c4abd8a2c42b406eda32ff0d49b73f80
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Tue Apr 5 12:27:10 2022 +0300
+
+    Update .gitlab-ci.yml to run Maven
+
+commit f9998738bf0e3bbcbc7c523a1a4ed8380b0746dc
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Tue Apr 5 12:22:30 2022 +0300
+
+    Update .gitlab-ci.yml file
+
+commit 5940ddeb71178db733858fcd09947cc58baa1400
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Tue Apr 5 12:13:09 2022 +0300
+
+    update to gitlab-ci.yml
+
+commit e24e3230b8d4281a8ed315d258f6a3ff48ae21d6
+Author: Heikki Hyyrö <heikki.hyyro@tuni.fi>
+Date:   Sat Apr 2 14:48:23 2022 +0300
+
+    Update README.md
+
+commit 1cdd9fd78ffd6b7d8d24aeb6fb12263aaa6cffe7
+Author: heikki <heikki.hyyro@tuni.fi>
+Date:   Sat Apr 2 14:45:28 2022 +0300
+
+    Added JSON example files.
+
+commit c04c5abc84fde9295160b4aa0374be740888f538
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Thu Mar 31 10:43:36 2022 +0300
+
+    Course project template
+
+commit bf75110545d6442f7a9fa841bf731a6f741c053c
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Mon Mar 28 15:14:28 2022 +0300
+
+    gitlab-ci configuration
+
+commit 8dfdb58459f05f2f5bc3b947aff8de1bcc3f6ff8
+Author: Terhi Kilamo <terhi.kilamo@tuni.fi>
+Date:   Mon Mar 28 15:07:56 2022 +0300
+
+    Update README.md
