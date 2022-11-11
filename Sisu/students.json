@@ -1,0 +1,909 @@
+[
+  {
+    "studentNumber": "123455",
+    "name": "Teemu Teekkari",
+    "startYear": 2020,
+    "endYear": 2028,
+    "degree": {
+      "code": "TSTK",
+      "urlRuleList": {
+        "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-e4a8addd-5944-4f94-9e56-d1b51d1f22ce\u0026universityId\u003dtuni-university-root-id": "Module",
+        "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-b994335e-8759-4d7e-b3bf-ae505fd3935e\u0026universityId\u003dtuni-university-root-id": "Module"
+      },
+      "credits": 180,
+      "groupId": "otm-fa02a1e7-4fe1-43e3-818b-810d8e723531",
+      "name": "Tieto- ja sähkötekniikan kandidaattiohjelma",
+      "source": "https://sis-tuni.funidata.fi/kori/api/modules/otm-d729cfc3-97ad-467f-86b7-b6729c496c82",
+      "description": "\u003cp\u003eTekniikan kandidaatin tutkinnon perustana on matemaattisluonnontieteellinen osaaminen, joka toimii pohjana sekä oman alan insinööriosaamiselle että antaa valmiudet elinikäiseen oppimiseen tekniikan alueella.   \u003c/p\u003e\u003cp\u003eTieto- ja sähkötekniikan kandidaatintutkinnon suorittaneella on perusosaaminen ohjelmoinnista, digitaalisesta signaalinkäsittelystä, sulautetuista järjestelmistä, sähköisistä ilmiöistä ja niiden mittaamisesta, tietoliikennetekniikasta, tietoverkoista ja tietoturvallisuudesta. \u003cbr /\u003e\u003c/p\u003e\u003cp\u003eTietotekniikan opintosuunnasta valmistuneella on lisäksi ohjelmoinnin menetelmien, ohjelmistoarkkitehtuurin ja ohjelmistotuotannon perusosaaminen.  \u003cbr /\u003e\u003c/p\u003e\u003cp\u003eSähkötekniikan opintosuunnasta valmistuneella on lisäksi teoreettisen sähkötekniikan, elektroniikan ja sähköenergiatekniikan perusosaaminen.  \u003c/p\u003e\u003cp\u003eOleellinen osa tutkintoa on aineopinnot ja siihen tehtävä kandidaatintyö. Valmistuneella kandidaatilla on opiskelemastaan aineopinnoista perusosaamista syvällisempi osaaminen sisältäen alakohtaisia yleisiä insinööritaitoja. Tutkintoon sisältyy lisäksi vapaasti valittava opintokokonaisuus, joka tuo tutkintoon laaja-alaisuutta.  \u003c/p\u003e\u003cp\u003eTekniikan kandidaatilla on valmistuessaan osana opintoja saavutetut valmiudet analyyttiseen ajatteluun, ongelmien ratkaisuun, tiedonhakuun ja kirjalliseen viestintään. Hän tuntee tieteellisen ajattelun perusteet ja oman alansa eettiset normit sekä osaa soveltaa niitä työskentelyssään. Hänellä on myös perusosaamista teollisuustaloudesta, projektinhallinnasta, ryhmätyöskentelystä, esiintymisestä, suullisesta viestinnästä ja toimimisesta kansainvälisessä toimintaympäristössä. \u003c/p\u003e\u003cp\u003eTekniikan kandidaatilla on tekniikan alan ylempään korkeakoulututkintoon johtavaan koulutukseen tarvittavat tiedot ja taidot sekä valmiudet elinikäiseen oppimiseen.\u003c/p\u003e",
+      "rules": [
+        {
+          "code": "TTEA",
+          "credits": 0,
+          "groupId": "otm-e4a8addd-5944-4f94-9e56-d1b51d1f22ce",
+          "name": "Tietotekniikka",
+          "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-e4a8addd-5944-4f94-9e56-d1b51d1f22ce\u0026universityId\u003dtuni-university-root-id",
+          "rules": [
+            {
+              "code": "COMP-P01",
+              "credits": 0,
+              "groupId": "otm-316ac8bf-ff36-4ec0-8997-617976500368",
+              "name": "Tietotekniikan yhteiset opinnot",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-316ac8bf-ff36-4ec0-8997-617976500368\u0026universityId\u003dtuni-university-root-id",
+              "description": "\u003cp\u003eTietotekniikan yhteiset opinnot suoritettuaan opiskelijalla on perusosaaminen ohjelmoinnista, digitaalisesta signaalinkäsittelystä, sulautetuista järjestelmistä, sähköisistä ilmiöistä ja niiden mittaamisesta, tietoliikennetekniikasta, tietoverkoista ja tietoturvallisuudesta. Opinnot suoritettuaan opiskelija hallitsee tietotekniikan perusteoriat ja pystyy soveltamaan niitä opinnoissaan.\u003c/p\u003e",
+              "rules": [],
+              "courses": [],
+              "courseURLs": [
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36938\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45459\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45474\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45501\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45577\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48243\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-20998\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36355\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45460\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45510\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-48285\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45620\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45462\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-38827\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-9809534b-8ccf-4cf2-82fc-6c4717417fbe\u0026universityId\u003dtuni-university-root-id"
+              ]
+            },
+            {
+              "code": "COMP-P02",
+              "credits": 0,
+              "groupId": "otm-f9e99608-4f97-4dc6-9beb-998b3873e249",
+              "name": "Tietotekniikan matemaattis-luonnontieteelliset perusopinnot",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-f9e99608-4f97-4dc6-9beb-998b3873e249\u0026universityId\u003dtuni-university-root-id",
+              "description": "\u003cp\u003eMatemaattis-luonnontieteelliset perusopinnot suoritettuaan opiskelija:  \u003cbr /\u003e-    Ymmärtää matematiikan ja luonnontieteiden roolin oman tieteenalan näkökulmasta.\u003cbr /\u003e-      Tiedostaa ja ymmärtää fysikaalisten ja kemiallisten ilmiöitä ja   luonnonlakeja ja hänellä on valmius soveltaa tietoa oman tieteenalan   opintoihin. \u003cbr /\u003e-    Osaa muotoilla fysikaalisen ongelman matemaattiseen muotoon \u003cbr /\u003e-      On perehtynyt oman tieteenalan kannalta tärkeisiin matemaattisiin   käsitteisiin ja menetelmiin SEFI-osaamistasolla 2   (https://www.sefi.be/publication/a-framework-for-mathematics-curricula-in-engineering-education/)   ja on saavuttanut insinööritieteissä yleisesti tarvittavassa   matematiikassa SEFI-osaamistason 1 .\u003cbr /\u003e-    Osaa soveltaa matematiikkaa ja matemaattisia ohjelmistoja oman tieteenalan opinnoissa.\u003cbr /\u003e-    Osaa päätellä loogisesti ja analyyttisesti. \u003cbr /\u003e-      Fysiikan opinnot suoritettuaan tuntee mekaniikkaan,   termodynamiikkaan ja sähkömagnetismiin liittyvät keskeiset fysikaaliset   suureet ja luonnonlait ja osaa ratkaista aihealueisiin liittyviä   ongelmia. \u003cbr /\u003e-    Osaa fysiikan teorioiden avulla tulkita kokeellisten   mittausten aikana tekemiään havaintoja sekä analysoida saamiaan  tuloksia  matemaattisin menetelmin. \u003cbr /\u003e-    Osaa arvioida saamansa tuloksen oikeellisuutta ja luotettavuutta. \u003cbr /\u003e-    Osaa antaa perusteltuja selityksiä luonnonilmiöistä ja tekniikan sovellutuksista myös laskematta.\u003cbr /\u003e-    Pystyy perustelemaan tekemiään johtopäätöksiä kirjallisesti ja suullisesti. \u003cbr /\u003e-    Tiedostaa ja ymmärtää kokeellisia menetelmiä ja toimintatapoja. \u003cbr /\u003e-    Opiskelijalla on valmiudet jatkaa oman alansa opintoja matemaattis-luonnontieteelliseltä pohjalta.\u003c/p\u003e",
+              "rules": [],
+              "courses": [],
+              "courseURLs": [
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-47933\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48229\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-1e8f1023-1977-4f98-9386-110ef623327b\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35898\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-33646\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48256\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35899\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47604\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47510\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48230\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-38909\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35897\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47515\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48943\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47603\u0026universityId\u003dtuni-university-root-id"
+              ]
+            },
+            {
+              "code": "COMP-M01",
+              "credits": 0,
+              "groupId": "otm-e0486fac-3401-47e9-97d7-968bed034227",
+              "name": "Vapaasti valittavat opintojaksot",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-e0486fac-3401-47e9-97d7-968bed034227\u0026universityId\u003dtuni-university-root-id",
+              "description": "\u003cp\u003eTieto- ja sähkötekniikan kandidaattiohjelman, tietotekniikan opintosuunnan vapaasti valittavat opintojaksot. Tutkinto täydennetään opintojaksoilla vähintään 180op laajuuteen.\u003c/p\u003e",
+              "rules": [],
+              "courses": [],
+              "courseURLs": []
+            },
+            {
+              "groupId": "otm-7ca282c4-4e88-4732-a3e3-573d35d33863",
+              "name": "Vapaasti valittavat opintokokonaisuudet",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-7ca282c4-4e88-4732-a3e3-573d35d33863\u0026universityId\u003dtuni-university-root-id",
+              "description": "\u003cp\u003eVähintään yksi opintokokonaisuus jostain toisesta tutkinto-ohjelmasta/opintosuunnasta tai\u003cbr /\u003ejokin erillinen opintokokonaisuus (20-30 op)\u003c/p\u003e",
+              "rules": [],
+              "courses": [],
+              "courseURLs": []
+            },
+            {
+              "groupId": "otm-6b723b60-5fda-4358-9ed4-6c508289420d",
+              "name": "Aineopinnot",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-6b723b60-5fda-4358-9ed4-6c508289420d\u0026universityId\u003dtuni-university-root-id",
+              "rules": [
+                {
+                  "code": "COMP.SGN-A01",
+                  "credits": 0,
+                  "groupId": "otm-7153a74a-a8b3-4fbe-b7db-c93854c9f495",
+                  "name": "Intermediate Studies in Signal Processing and Machine Learning",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-7153a74a-a8b3-4fbe-b7db-c93854c9f495\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eSignaalinkäsittelyn ja koneoppimisen pääaineet on tarkoitettu  aktiivisille ja ahkerille opiskelijoille, jotka ovat kiinnostuneet  tietotekniikan uusimmista ja vielä kehittyvistä teknologioista. Tällä  hetkellä tällaisia aiheita ovat esim. kuvan-, kielen- ja äänenkäsittely,  tietokonenäkö, koneoppiminen ja robotiikka.\u003cbr /\u003e\u003c/p\u003e\u003cp\u003eModuuli antaa  opiskelijoille vahvan tietotaidon ja käytännön osaamisen kaikissa  kurssiemme aihealueissa. Opiskelijat ovat myös tervetulleita  tutkimusryhmien jäseniksi opintojensa aikana.\u003c/p\u003e\u003cp\u003eModuulin voi ottaa sivuaineena sisällyttämällä kaikki pakolliset ja vähintään 20 opintopistettä.\u003c/p\u003e\u003cp\u003eOpiskelijoita  kehoitetaan myös luovasti personoimaan opintojaan itsensä näköisiksi  valitsemalla sopivia kursseja tässä lueteltujen ulkopuolelta. Tässä  tapauksessa ota yhteyttä moduulin vastaaviin.\u003c/p\u003e",
+                  "rules": [],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36938\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-49119\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47996\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36840\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35418\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-9392333f-bff2-4c3d-b1cf-717ce9990253\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-43018\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47697\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-43075\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-49996\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-43032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36124\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                },
+                {
+                  "code": "COMP.SE-A01",
+                  "credits": 0,
+                  "groupId": "otm-33a53ebb-8cbb-4315-9021-ed14742bfa60",
+                  "name": "Ohjelmistotekniikan aineopinnot",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-33a53ebb-8cbb-4315-9021-ed14742bfa60\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eAineopintojen kokonaisuuden tulee olla yhteensä 40 op.\u003cbr /\u003e\u003c/p\u003e\u003cp\u003eAineopintoihin kuuluu 30 op Ohjelmistotekniikan pakollisia aineopintoja sekä Kandidaattitutkielma 10 op. Kokonaisuus täydennetään listasta valinnaisia Ohjelmistotekniikan opintojaksoja.\u003c/p\u003e",
+                  "rules": [
+                    {
+                      "groupId": "otm-62b2d6cd-593e-4e18-bf79-59a123f6f8ec",
+                      "name": "Täydentävät opintojaksot",
+                      "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-62b2d6cd-593e-4e18-bf79-59a123f6f8ec\u0026universityId\u003dtuni-university-root-id",
+                      "rules": [],
+                      "courses": [],
+                      "courseURLs": [
+                        "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-949208ad-9f08-452d-bd64-78588079c3d6\u0026universityId\u003dtuni-university-root-id",
+                        "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36927\u0026universityId\u003dtuni-university-root-id",
+                        "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-a654c805-ed51-465c-806a-d279f6d6f41e\u0026universityId\u003dtuni-university-root-id",
+                        "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-43075\u0026universityId\u003dtuni-university-root-id",
+                        "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-fd2ca0d6-480a-40ba-b6d7-93fc3221704b\u0026universityId\u003dtuni-university-root-id",
+                        "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-4e47c4ef-57c7-406c-ab83-1d106b575186\u0026universityId\u003dtuni-university-root-id",
+                        "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42031\u0026universityId\u003dtuni-university-root-id"
+                      ]
+                    }
+                  ],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36938\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36437\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-5381c680-bc69-4400-a578-ec0a79141cd0\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36840\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-25895\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-9392333f-bff2-4c3d-b1cf-717ce9990253\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-4da0e13d-222a-4e14-a239-86b76346ba14\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                },
+                {
+                  "code": "COMM-A01",
+                  "credits": 0,
+                  "groupId": "otm-7cb70915-2d95-494b-8f7f-b081daccaf0a",
+                  "name": "Tietoliikennetekniikan aineopinnot",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-7cb70915-2d95-494b-8f7f-b081daccaf0a\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eTämän aineopintokokonaisuuden avulla muodostat hyvän yleiskuvan \ntietoliikennealan perusteknologioista ja digitaalisista tietoverkoista, \nja samalla avaat ovet alan syventävien opintojen suuntaan.\u003c/p\u003e",
+                  "rules": [],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45956\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45501\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41312\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36477\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36487\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48078\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48057\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45943\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45260\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45937\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45259\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45404\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42182\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48077\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48117\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36500\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48056\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35273\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48080\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2a54f37d-bce2-46e3-aa9a-ddd35a1e320f\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-bafa9eb7-3029-47a3-9f3c-60e3a1545516\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36124\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45401\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                },
+                {
+                  "code": "EE.ELE-A01",
+                  "credits": 0,
+                  "groupId": "otm-4bcbdb16-bfba-4bd1-9707-23f753afb775",
+                  "name": "Elektroniikan ja sulautettujen järjestelmien aineopinnot",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-4bcbdb16-bfba-4bd1-9707-23f753afb775\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eKokonaisuus antaa perusvalmiudet elektronisten laitteiden suunnittelun keskeisiltä osa-alueilta: transistorikytkennöistä, mikropiiri- ja järjestelmäpiirisuunnittelusta, elektroniikan materiaaleista, piirilevysuunnittelusta, radiotaajuussuunnittelusta sekä laitteistonläheisestä ohjelmoinnista.\u003c/p\u003e",
+                  "rules": [],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42941\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45399\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45259\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42182\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36546\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45402\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35273\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-37107\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41312\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45400\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36437\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45403\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45666\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45401\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45260\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-38955\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                }
+              ],
+              "courses": [],
+              "courseURLs": []
+            }
+          ],
+          "courses": [],
+          "courseURLs": []
+        },
+        {
+          "code": "STEA",
+          "credits": 0,
+          "groupId": "otm-b994335e-8759-4d7e-b3bf-ae505fd3935e",
+          "name": "Sähkötekniikka",
+          "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-b994335e-8759-4d7e-b3bf-ae505fd3935e\u0026universityId\u003dtuni-university-root-id",
+          "rules": [
+            {
+              "groupId": "otm-7515d0a0-f024-4dee-b1ed-f509dafed6f8",
+              "name": "Aineopinnot",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-7515d0a0-f024-4dee-b1ed-f509dafed6f8\u0026universityId\u003dtuni-university-root-id",
+              "rules": [
+                {
+                  "code": "COMP.SGN-A01",
+                  "credits": 0,
+                  "groupId": "otm-7153a74a-a8b3-4fbe-b7db-c93854c9f495",
+                  "name": "Intermediate Studies in Signal Processing and Machine Learning",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-7153a74a-a8b3-4fbe-b7db-c93854c9f495\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eSignaalinkäsittelyn ja koneoppimisen pääaineet on tarkoitettu  aktiivisille ja ahkerille opiskelijoille, jotka ovat kiinnostuneet  tietotekniikan uusimmista ja vielä kehittyvistä teknologioista. Tällä  hetkellä tällaisia aiheita ovat esim. kuvan-, kielen- ja äänenkäsittely,  tietokonenäkö, koneoppiminen ja robotiikka.\u003cbr /\u003e\u003c/p\u003e\u003cp\u003eModuuli antaa  opiskelijoille vahvan tietotaidon ja käytännön osaamisen kaikissa  kurssiemme aihealueissa. Opiskelijat ovat myös tervetulleita  tutkimusryhmien jäseniksi opintojensa aikana.\u003c/p\u003e\u003cp\u003eModuulin voi ottaa sivuaineena sisällyttämällä kaikki pakolliset ja vähintään 20 opintopistettä.\u003c/p\u003e\u003cp\u003eOpiskelijoita  kehoitetaan myös luovasti personoimaan opintojaan itsensä näköisiksi  valitsemalla sopivia kursseja tässä lueteltujen ulkopuolelta. Tässä  tapauksessa ota yhteyttä moduulin vastaaviin.\u003c/p\u003e",
+                  "rules": [],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36938\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-49119\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47996\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36840\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35418\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-9392333f-bff2-4c3d-b1cf-717ce9990253\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-43018\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47697\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-43075\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-49996\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-43032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36124\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                },
+                {
+                  "code": "EE.PEE-A01",
+                  "credits": 0,
+                  "groupId": "otm-9d7de960-61cc-4f67-8244-62f941562859",
+                  "name": "Intermediate Studies in Power Electronics and Electromechanics",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-9d7de960-61cc-4f67-8244-62f941562859\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eTehoelektroniikkaa käytetään sähköenergian muokkaukseen. Sähkömekaniikkaa tarvitaan mekaanisen energian muuntamiseksi sähköksi ja päinvastoin. Laitteiden käyttö sähköverkossa ja liikenteessä on voimakkaassa kasvussa. Tehoelektroniikka- ja sähkömekaanisten laitteiden menestyksellinen suunnittelu edellyttää sähkötekniikan perustietojen hallintaa sekä kykyä soveltaa eri tieteenaloja, kuten säätötekniikkaa, elektroniikkaa ja sähkövoimatekniikkaa.\u003cbr /\u003e\u003c/p\u003e\u003cp\u003eTämä opintokokonaisuus antaa perustiedot tehoelektroniikkalaitteiden toiminnasta, niiden käytöstä tehoelektroniikkajärjestelmissä sekä niiden ohjaamiseen tarvittavasta säätötekniikasta. Valinnaisina opintojaksoina opiskellaan perusteita sähkökoneista, sähköverkkotekniikasta ja uusiutuvista energiantuotantojärjestelmistä, joissa tehoelektroniikkaa sovelletaan.\u003c/p\u003e\u003cp\u003eTämän opintokokonaisuuden voi opiskella myös valinnaisena aineopintokokonaisuutena 20 opintopisteen laajuisena.\u003c/p\u003e",
+                  "rules": [],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35267\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35288\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48323\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35273\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42949\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35595\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35254\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42872\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                },
+                {
+                  "code": "COMM-A01",
+                  "credits": 0,
+                  "groupId": "otm-7cb70915-2d95-494b-8f7f-b081daccaf0a",
+                  "name": "Tietoliikennetekniikan aineopinnot",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-7cb70915-2d95-494b-8f7f-b081daccaf0a\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eTämän aineopintokokonaisuuden avulla muodostat hyvän yleiskuvan \ntietoliikennealan perusteknologioista ja digitaalisista tietoverkoista, \nja samalla avaat ovet alan syventävien opintojen suuntaan.\u003c/p\u003e",
+                  "rules": [],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45956\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45501\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41312\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36477\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36487\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48078\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48057\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45943\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45260\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45937\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45259\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45404\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42182\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48077\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48117\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36500\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48056\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35273\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48080\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2a54f37d-bce2-46e3-aa9a-ddd35a1e320f\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-bafa9eb7-3029-47a3-9f3c-60e3a1545516\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36124\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45401\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                },
+                {
+                  "code": "EE.EES-A01",
+                  "credits": 0,
+                  "groupId": "otm-fe37b005-3fda-4a80-9093-a493346442d3",
+                  "name": "Sähköenergiatekniikan aineopinnot",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-fe37b005-3fda-4a80-9093-a493346442d3\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eSähköenergiatekniikkaan liittyvät tuotteet ja teknologia ovat merkittävä teollisuuden ala ja välttämätön osa modernin yhteiskunnan infrastruktuuria. Sähköenergiatekniikan opintokonaisuus antaa perustiedot sähköenergiatekniikan keskeisistä osa-alueista ja toimii johdattelevana kokonaisuutena DI-opintoihin. Sähköenergiatekniikan opintokokonaisuus antaa myös alustavat valmiudet toimia erilaisissa työtehtävissä sähkön tuotannon, siirron, jakelun ja käytön parissa.\u003cbr /\u003eSähkövoimatekniikan opintokokonaisuutta syventävät DI-opintokokonaisuudet ovat:\u003cbr /\u003eSähköverkot ja -markkinat,\u003cbr /\u003eUusiutuvat sähköenergiateknologiat,\u003cbr /\u003e\u003cbr /\u003eSähköenergiatekniikan opintojaksot perehdyttävät opiskelijan eri työtehtävissä tarvittavaan tietämykseen ja tekniikoihin. Pääosa opintojaksoista sisältää myös pienryhmissä tehtäviä laboratoriotöitä, suunnitteluharjoituksia ja seminaaritöitä. Sähköenergiatekniikan jatkona olevat DI-opintokokonaisuudet antavat valmiuksia työskennellä monipuolisissa työtehtävissä sähkölaitteita ja -järjestelmiä valmistavassa teollisuudessa, sähköverkkoyhtiöissä, sähkön tuotantoyhtiöissä, sähkönmyyntiyhtiöissä, suunnittelutoimistoissa sekä suurten teollisuuslaitosten sähköverkkojen hallintaan liittyvissä tehtävissä.\u003cbr /\u003e\u003cbr /\u003eSähköenergiatekniikan opintoihin on hyödyllistä sisällyttää joko erillisiä opintoja tai yhdistää kokonaisia opintokokonaisuuksia esimerkiksi tietotekniikan, automaatiotekniikan, energiatekniikan tai teollisuustalouden opinnoista.\u003c/p\u003e",
+                  "rules": [],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35336\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-63b5aba5-cdc8-4dc2-8895-c5264a617587\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42656\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35278\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-38706\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35273\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35255\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35595\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35335\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35257\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35285\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42949\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35254\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                },
+                {
+                  "code": "EE.ELE-A01",
+                  "credits": 0,
+                  "groupId": "otm-4bcbdb16-bfba-4bd1-9707-23f753afb775",
+                  "name": "Elektroniikan ja sulautettujen järjestelmien aineopinnot",
+                  "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-4bcbdb16-bfba-4bd1-9707-23f753afb775\u0026universityId\u003dtuni-university-root-id",
+                  "description": "\u003cp\u003eKokonaisuus antaa perusvalmiudet elektronisten laitteiden suunnittelun keskeisiltä osa-alueilta: transistorikytkennöistä, mikropiiri- ja järjestelmäpiirisuunnittelusta, elektroniikan materiaaleista, piirilevysuunnittelusta, radiotaajuussuunnittelusta sekä laitteistonläheisestä ohjelmoinnista.\u003c/p\u003e",
+                  "rules": [],
+                  "courses": [],
+                  "courseURLs": [
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42941\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45399\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41999\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45259\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-42182\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36546\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-49136eba-4a72-40e7-aedb-5e7c20dfcf7e\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45402\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35273\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-37107\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-41312\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45400\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36437\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2beeb9ef-859a-4280-984a-d6cf2ce23032\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45403\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45666\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-2c104f39-c85a-4f56-b394-880903f2eaf0\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45401\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45260\u0026universityId\u003dtuni-university-root-id",
+                    "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-38955\u0026universityId\u003dtuni-university-root-id"
+                  ]
+                }
+              ],
+              "courses": [],
+              "courseURLs": []
+            },
+            {
+              "groupId": "otm-13bfd3eb-b4ac-4f89-9a97-9a88f47aba68",
+              "name": "Vapaasti valittavat opintokokonaisuudet",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-13bfd3eb-b4ac-4f89-9a97-9a88f47aba68\u0026universityId\u003dtuni-university-root-id",
+              "description": "\u003cp\u003eVähintään yksi opintokokonaisuus jostain toisesta tutkinto-ohjelmasta/opintosuunnasta tai\u003cbr /\u003ejokin erillinen opintokokonaisuus (20-30 op)\u003c/p\u003e",
+              "rules": [],
+              "courses": [],
+              "courseURLs": []
+            },
+            {
+              "code": "EE-P01",
+              "credits": 0,
+              "groupId": "otm-b754ef2e-46fa-435d-aa99-ccbda4866adc",
+              "name": "Sähkötekniikan yhteiset opinnot",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-b754ef2e-46fa-435d-aa99-ccbda4866adc\u0026universityId\u003dtuni-university-root-id",
+              "description": "\u003cp\u003eSähkötekniikan yhteiset opinnot suoritettuaan opiskelijalla on perusosaaminen ohjelmoinnista, digitaalisesta signaalinkäsittelystä, sulautetuista järjestelmistä, sähköisistä ilmiöistä ja niiden mittaamisesta, tietoliikennetekniikasta, tietoverkoista ja tietoturvallisuudesta. Opinnot suoritettuaan opiskelija hallitsee sähkötekniikan perusteoriat ja pystyy soveltamaan niitä opinnoissaan.\u003cbr /\u003e\u003c/p\u003e",
+              "rules": [],
+              "courses": [],
+              "courseURLs": [
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45459\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45399\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45577\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48243\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45457\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-20998\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-36355\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45460\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45198\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45510\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-48285\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45620\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-45462\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-38827\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-9809534b-8ccf-4cf2-82fc-6c4717417fbe\u0026universityId\u003dtuni-university-root-id"
+              ]
+            },
+            {
+              "code": "EE-P02",
+              "credits": 0,
+              "groupId": "otm-0d293ec1-6de8-4d59-bbf0-b8fc486c82cd",
+              "name": "Sähkötekniikan matemaattis-luonnontieteelliset perusopinnot",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-0d293ec1-6de8-4d59-bbf0-b8fc486c82cd\u0026universityId\u003dtuni-university-root-id",
+              "description": "\u003cp\u003eMatemaattis-luonnontieteelliset perusopinnot suoritettuaan opiskelija:  \u003cbr /\u003e-    Ymmärtää matematiikan ja luonnontieteiden roolin oman tieteenalan näkökulmasta.\u003cbr /\u003e-     Tiedostaa ja ymmärtää fysikaalisten ja kemiallisten ilmiöitä ja  luonnonlakeja ja hänellä on valmius soveltaa tietoa oman tieteenalan  opintoihin. \u003cbr /\u003e-    Osaa muotoilla fysikaalisen ongelman matemaattiseen muotoon \u003cbr /\u003e-     On perehtynyt oman tieteenalan kannalta tärkeisiin matemaattisiin  käsitteisiin ja menetelmiin SEFI-osaamistasolla 2  (https://www.sefi.be/publication/a-framework-for-mathematics-curricula-in-engineering-education/)  ja on saavuttanut insinööritieteissä yleisesti tarvittavassa  matematiikassa SEFI-osaamistason 1 .\u003cbr /\u003e-    Osaa soveltaa matematiikkaa ja matemaattisia ohjelmistoja oman tieteenalan opinnoissa.\u003cbr /\u003e-    Osaa päätellä loogisesti ja analyyttisesti. \u003cbr /\u003e-     Fysiikan opinnot suoritettuaan tuntee mekaniikkaan,  termodynamiikkaan ja sähkömagnetismiin liittyvät keskeiset fysikaaliset  suureet ja luonnonlait ja osaa ratkaista aihealueisiin liittyviä  ongelmia. \u003cbr /\u003e-    Osaa fysiikan teorioiden avulla tulkita kokeellisten  mittausten aikana tekemiään havaintoja sekä analysoida saamiaan tuloksia  matemaattisin menetelmin. \u003cbr /\u003e-    Osaa arvioida saamansa tuloksen oikeellisuutta ja luotettavuutta. \u003cbr /\u003e-    Osaa antaa perusteltuja selityksiä luonnonilmiöistä ja tekniikan sovellutuksista myös laskematta.\u003cbr /\u003e-    Pystyy perustelemaan tekemiään johtopäätöksiä kirjallisesti ja suullisesti. \u003cbr /\u003e-    Tiedostaa ja ymmärtää kokeellisia menetelmiä ja toimintatapoja. \u003cbr /\u003e-    Opiskelijalla on valmiudet jatkaa oman alansa opintoja matemaattis-luonnontieteelliseltä pohjalta. \u003c/p\u003e",
+              "rules": [],
+              "courses": [],
+              "courseURLs": [
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-47933\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48229\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-1e8f1023-1977-4f98-9386-110ef623327b\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35898\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-33646\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48256\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35899\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47604\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47510\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48230\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-38909\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35897\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47515\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48257\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48943\u0026universityId\u003dtuni-university-root-id",
+                "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47603\u0026universityId\u003dtuni-university-root-id"
+              ]
+            },
+            {
+              "code": "EE-M01",
+              "credits": 0,
+              "groupId": "otm-cbed2832-3231-4833-82b0-8547bac34293",
+              "name": "Vapaasti valittavat opintojaksot",
+              "source": "https://sis-tuni.funidata.fi/kori/api/modules/by-group-id?groupId\u003dotm-cbed2832-3231-4833-82b0-8547bac34293\u0026universityId\u003dtuni-university-root-id",
+              "description": "\u003cp\u003eTieto- ja sähkötekniikan kandidaattiohjelman, sähkötekniikan opintosuunnan vapaasti valittavat opintojaksot. Tutkinto täydennetään opintojaksoilla vähintään 180op laajuuteen.\u003c/p\u003e",
+              "rules": [],
+              "courses": [],
+              "courseURLs": []
+            }
+          ],
+          "courses": [],
+          "courseURLs": []
+        }
+      ],
+      "courses": [],
+      "courseURLs": []
+    },
+    "attainments": [
+      {
+        "course": {
+          "code": "COMP.CS.140",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Ohjelmointi 3: Rajapinnat ja tekniikat",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-9392333f-bff2-4c3d-b1cf-717ce9990253\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003ch5\u003eYdinsisältö\u003c/h5\u003e\u003cul\u003e\u003cli\u003eModulaarisuus: Lokaalisuusperiaate, Abstraktio, Kapselointi, Rajapinta, Nimiavaruudet, Sopimussuunnittelu\u003cbr /\u003e\u003c/li\u003e\u003cli\u003ePeriytyminen: Kanta- ja aliluokat, olioiden omistus, dynaaminen sitominen\u003c/li\u003e\u003cli\u003eTiimityöskentely: Versionhallinta modernissa ohjelmistotyössä, työnjako.\u003c/li\u003e\u003cli\u003eOhjelman laatu: Yksikkötestaus\u003c/li\u003e\u003cli\u003ePoikkeukset, poikkeustakuut\u003c/li\u003e\u003cli\u003eGeneerisyyden hyödyntäminen ohjelmoinnissa\u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 5,
+        "date": "2022-04-28"
+      }
+    ],
+    "courseFound": false
+  },
+  {
+    "studentNumber": "333333",
+    "name": "Bertta Biologi",
+    "startYear": 2017,
+    "endYear": 2026,
+    "degree": {
+      "code": "BBTK",
+      "urlRuleList": {},
+      "credits": 180,
+      "groupId": "otm-cdbf8a1f-bc5e-4df7-b955-433357f0a416",
+      "name": "Bachelor\u0027s Programme in Biotechnology and Biomedical Engineering",
+      "source": "https://sis-tuni.funidata.fi/kori/api/modules/otm-afdc171e-7718-4d75-8010-0ee6faaf0e7a",
+      "description": "\u003cp\u003eLuonnontieteiden tai tekniikan kandidaatin tutkinnon suoritettuaan opiskelija: \u003c/p\u003e\u003cp\u003e-       Tuntee bioteknologian ja biolääketieteen tekniikan perusteet.\u003c/p\u003e\u003cp\u003e-       Ymmärtää alansa tieteellistä ajattelua ja päättelyä.\u003c/p\u003e\u003cp\u003e-       Osaa soveltaa tieteellisiä työskentelytapoja tiedon hankintaan, analysointiin ja raportointiin.\u003c/p\u003e\u003cp\u003e-       Kykenee turvalliseen laboratoriotyöskentelyyn.\u003c/p\u003e\u003cp\u003e-       Osaa hyödyntää tieto- ja viestintätekniikkaa.\u003c/p\u003e\u003cp\u003e-       Ymmärtää alansa tutkimuseettiset periaatteet ja toimii niiden mukaisesti.\u003c/p\u003e\u003cp\u003e-       Pystyy seuraamaan ja tulkitsemaan alansa kehitystä ja sen yhteiskunnallista merkitystä. \u003c/p\u003e\u003cp\u003e-       Kykenee osallistumaan alansa yhteiskunnalliseen keskusteluun.\u003c/p\u003e\u003cp\u003e-       Ottaa kaikessa työskentelyssään huomioon monenlaiset toimijat.\u003c/p\u003e\u003cp\u003e-       Omaa hyvät työyhteisötaidot ja osaa toimia moniammatillisessa ympäristössä.\u003c/p\u003e\u003cp\u003e-       Ymmärtää, että asiantuntijana kehittyminen on elinikäinen prosessi ja oppii sietämään omaa keskeneräisyyttään.\u003c/p\u003e\u003cp\u003e-       Omaa peruskäsityksen alan innovaatiotoiminnasta ja yrittäjyydestä.\u003c/p\u003e\u003cp\u003e-       Viestii asiantuntijana suullisesti ja kirjallisesti äidinkielen lisäksi myös toisella kotimaisella ja yhdellä vieraalla kielellä.\u003c/p\u003e\u003cp\u003e-       Ymmärtää oman alansa kansainvälisen luonteen.\u003c/p\u003e\u003cp\u003e\u003cbr /\u003e\u003c/p\u003e\u003cp\u003eLisäksi luonnontieteiden kandidaatin tutkinnon suoritettuaan opiskelija:\u003c/p\u003e\u003cp\u003e-       Omaa laaja-alaisen ja vankan osaamisen biotieteiden perusteista.\u003c/p\u003e\u003cp\u003e-       Ymmärtää biotieteiden mahdollisuudet tutkimuksessa ja sovelluksissa. \u003cbr /\u003e\u003c/p\u003e\u003cp\u003e\u003cbr /\u003e\u003c/p\u003e\u003cp\u003eLisäksi tekniikan kandidaatin tutkinnon suoritettuaan opiskelija:\u003c/p\u003e\u003cp\u003e-       Omaa laaja-alaisen ja vankan osaamisen matemaattis-luonnontieteellisistä perusteista.\u003c/p\u003e\u003cp\u003e-       Ymmärtää tekniikan mahdollisuudet lääketieteen ja bioteollisuuden sovelluksissa.\u003c/p\u003e",
+      "rules": [],
+      "courses": [],
+      "courseURLs": []
+    },
+    "attainments": [
+      {
+        "course": {
+          "code": "ARK.101",
+          "credits": 2,
+          "showGrades": false,
+          "name": "Johdatus arkkitehtuurin opiskeluun I",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48863\u0026universityId\u003dtuni-university-root-id",
+          "description": "",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 0,
+        "date": "2017-09-15"
+      },
+      {
+        "course": {
+          "code": "ARK.110",
+          "credits": 5,
+          "showGrades": false,
+          "name": "Taide I",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-468918e5-fd76-423d-a467-cd6c03aeb7f4\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cp\u003eOpintojakso perehdyttää kuvataiteiden perusteisiin. Visuaaliseen hahmotukseen tutustumalla omaksutaan taitoa lukea ja tuottaa kuvaa. Sisäistämällä kuvatilan perussuureet kuten painopiste, jännite, suunnat, liike, omaksutaan taito tuottaa taiteellisesti kiinnostavaa kuvaa. Paneutumalla sommitteluun, sen perusperiaatteisiin ja taidehistorian esimerkkeihin omaksutaan taito taiteellisesti kiinnostavaan sommitteluun. Perehdytään ihmiskehoon kuvataiteen aiheena ja kuvataiteen liittymäkohtana arkkitehtuurin sekä osataan omassa ilmaisussa esittää ihmiskeho.\u003c/p\u003e\u003cp\u003eOpintojaksolla tehdään lukuisia piirustusharjoituksia musta-valko –väriskaalaisin tekniikoin: lyijykynä, hiili, pastelliliitu, muste, sekatekniikka. Niitä käyttämällä tutustutaan seuraaviin piirustusgenreihin: ääriviiva-, valööri-, tila-, croquispiirustus. Harjoitustehtäviä tehdään havainnosta piirtäen, tehden tietoisia visuaalisia havaintoja. Tutustutaan myös kokeellisen piirtämisen mahdollisuuksiin havainnon ja ilmaisun syventämiseksi. \u003c/p\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 0,
+        "date": "2017-10-19"
+      },
+      {
+        "course": {
+          "code": "ARK.210",
+          "credits": 10,
+          "showGrades": true,
+          "name": "Taide II",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-5b425650-7801-404c-9702-59b03af3e5bc\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cp\u003eOpintojakson keskeinen sisältö koostuu väriopista ja sen soveltamisesta. Väriteorioihin tutustumalla saavutetaan kokonaiskuva värien jaottelusta ja väriavaruuden hallinnasta. Omaksutaan tietoa värin hahmottamiseen ja kokemiseen vaikuttavista tekijöistä. Teoreettisia tietoja opitaan soveltamaan niin arkkitehtisuunnittelussa käytettäviin rakennusmaalien värikarttoihin kuin maalaustaiteessa käytettävien taidevärien värikarttoihin. Ymmärretään näiden sovelluskohteiden erot ja yhtäläisyydet sekä väri-ilmaisun mahdollisuudet. Syvennytään maalaukseen taiteellisena ilmaisumuotona etenkin modernismin aikana.\u003c/p\u003e\u003cp\u003eOpintojaksolla tehdään lukuisia väriteoria- ja akvarellitekniikan maalausharjoituksia. Harjoitustehtäviä tehdään värimalleja kollasoimalla ja perehtymällä monipuolisesti akvarellitekniikkaan. Tehtävät koostetaan yhteen kirjaksi, jonka graafinen suunnittelu ja toteutus on opintojakson suunnittelullinen osuus.\u003c/p\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2018-04-12"
+      },
+      {
+        "course": {
+          "code": "ARK.RH.100",
+          "credits": 5,
+          "showGrades": false,
+          "name": "Työmaaharjoittelu",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48944\u0026universityId\u003dtuni-university-root-id",
+          "description": "",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 0,
+        "date": "2018-06-12"
+      },
+      {
+        "course": {
+          "code": "LANG.ENG.001",
+          "credits": 3,
+          "showGrades": true,
+          "name": "Foundations of Professional and Academic Communication in English",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-38827\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cul\u003e\u003cli\u003e       Situations typical of multicultural workplaces and universities \u003c/li\u003e\u003cli\u003e       Topics related to working life and to the student’s field of study\u003c/li\u003e\u003cli\u003e       Audience and purpose\u003c/li\u003e\u003cli\u003eEnglish conventions governing text structure \u003c/li\u003e\u003cli\u003e       Style, readability and flow\u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 2,
+        "date": "2020-02-11"
+      },
+      {
+        "course": {
+          "code": "LANG.RUO.001",
+          "credits": 3,
+          "showGrades": false,
+          "name": "Ruotsia työelämään",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-20998\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cul\u003e\u003cli\u003ekoulutus: omat opinnot ja minä yliopisto-opiskelijana, opintojen sisältö ja opitut taidot \u003c/li\u003e\u003cli\u003etyöelämä: työelämässä tarvittavat taidot, työelämän tilanteet ja ilmiöt \u003c/li\u003e\u003cli\u003eoma ala: oman alan ilmiöt, oman alan keskeinen sanasto\u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 0,
+        "date": "2020-02-18"
+      },
+      {
+        "course": {
+          "code": "BBT.007",
+          "credits": 3,
+          "showGrades": true,
+          "name": "Genetiikka",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-47965\u0026universityId\u003dtuni-university-root-id",
+          "description": "Opintojakson aikana perehdytään ihmisen terveen elimistön ja sairauksien kannalta tärkeisiin geneettisiin ja epigeneettisiin mekanismeihin. Käsitellään mm. ihmisen genomin rakenne, erilaiset periytymistavat, ihmisten välinen geneettinen variaatio ja muut populaatiogenetiikan periaatteet sekä suomalaisen geeniperimän ominaispiirteet. Lisäksi tutustutaan erilaisiin geenivirheiden tunnistamismenetelmiin ja niiden hyödyntämiseen diagnostiikassa.",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2018-05-01"
+      },
+      {
+        "course": {
+          "code": "BBT.011",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Molekyylibiologian työt",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-47964\u0026universityId\u003dtuni-university-root-id",
+          "description": "Molekyylibiologian perusmenetelmiin keskittyvä laboratoriotyökurssi. Kurssi koostuu luennoista ja laboratoriotyöskentelystä, jossa perehdytään molekyylibiologian perusmenetelmiin, kuten RNA- ja DNA-eristys, yhdistelmä-DNA-tekniikat ja polymeraasiketjureaktio. Kurssiin sisältyy alkutentti, jonka hyväksytysti suorittaminen on edellytyksenä laboratoriotöihin osallistumiselle. Laboratoriotöissä ja yhteenvetotilaisuudessa on läsnäolopakko.",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2017-10-10"
+      },
+      {
+        "course": {
+          "code": "BBT.012",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Soluviljely",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-40149\u0026universityId\u003dtuni-university-root-id",
+          "description": "Kurssi koostuu luento-opetuksesta ja laboratoriotyöskentelystä",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 4,
+        "date": "2018-09-19"
+      },
+      {
+        "course": {
+          "code": "BBT.014",
+          "credits": 2,
+          "showGrades": false,
+          "name": "Hands-on Genetics",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-54086\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cp\u003eThe aim of this course is to introduce the students basic statistical, genetic, and computational analyses related to genetics studies and genetic conditions. Necessary theoretical background for understanding the concepts are provided but the focus is on hands-on exercises which will be done by utilizing selected software. In addition, students will study one inherited condition from different genetic and biological perspectives.\u003c/p\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 0,
+        "date": "2019-10-22"
+      },
+      {
+        "course": {
+          "code": "KEM.130",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Laaja kemia 1",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47398\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003ch5\u003eYdinsisältö\u003c/h5\u003e\u003cul\u003e\u003cli\u003eHomogeeninen ja heterogeeninen kemiallinen tasapaino. Aktiivisuuden käsite.\u003c/li\u003e\u003cli\u003eHappo-emästasapainot ja näihin liittyvät laskutehtävät kuten puskuriliuokset ja titrauslaskut. Niukkaliukoisen suolan liukoisuus ja siihen vaikuttavat tekijät.\u003c/li\u003e\u003cli\u003eTermokemia ja termodynamiikan tilan suureet sisäenergia ja  entalpia.\u003c/li\u003e\u003cli\u003eTermodynamiikan tilan suureet entropia ja vapaa energia. Termodynaaminen kemiallisen tasapainon käsittely.\u003c/li\u003e\u003cli\u003eHapettuminen ja pelkistyminen. Sähkökemiallisten reaktioiden erityispiirteet. Sähkökemialliset kennot.\u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2020-05-15"
+      },
+      {
+        "course": {
+          "code": "KEM.140",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Laaja kemia 2",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-47399\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003ch5\u003eYdinsisältö\u003c/h5\u003e\u003cul\u003e\u003cli\u003eKvanttiteoria ja atomin rakenne. Atomiorbitaalit. Jaksollinen järjestelmä. Pääryhmien alkuaineet.  \u003c/li\u003e\u003cli\u003eKemiallinen sidos ja molekyylien rakenne. Molekulaarisen rakenteen vaikutus aineen ominaisuuksiin. \u003c/li\u003e\u003cli\u003eMolekyylien väliset vuorovaikutukset. Nesteiden ja kiinteiden aineiden rakenne. \u003c/li\u003e\u003cli\u003eKemiallinen kinetiikka. Kemiallisen reaktion nopeus ja siihen vaikuttavat tekijät. Differentiaalinen ja integroitu nopeuslaki.\u003c/li\u003e\u003cli\u003eLiuosten kolligatiiviset ominaisuudet\u003c/li\u003e\u003c/ul\u003e\u003ch5\u003eTäydentävä tietämys\u003c/h5\u003e\u003cul\u003e\u003cli\u003eAlkuaineiden ominaisuuksien arvioiminen jaksollisen järjestelmän perusteella.\u003c/li\u003e\u003cli\u003eHybridiorbitaalien muodostuminen. Molekyyliorbitaaliten muodostuminen. Elektroni- ja värähdysspektroskopioiden perusteet.\u003c/li\u003e\u003cli\u003eMetallisidoksen muodostuminen. \u003c/li\u003e\u003cli\u003eReaktiomekanismit.\u003c/li\u003e\u003c/ul\u003e\u003ch5\u003eErityistietämys\u003c/h5\u003e\u003cul\u003e\u003cli\u003eSchrödingerin aaltoyhtälön ratkaisu. Yksittäisten alkuaineiden ominaisuudet.\u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 5,
+        "date": "2020-10-16"
+      },
+      {
+        "course": {
+          "code": "KEM.220",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Orgaaninen kemia 1",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-35651\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003ch5\u003eYdinsisältö\u003c/h5\u003e\u003cul\u003e\u003cli\u003eKeskeiset orgaanisten yhdisteiden luokat. Orgaanisen kemian systemaattinen nimistö (IUPAC). Orgaanisten yhdisteiden esiintyminen luonnossa.\u003c/li\u003e\u003cli\u003eHiiliyhdisteiden sidokset ja molekyylirakenteet, isomerian eri lajit, optinen aktiivisuus ja peilikuvaisomeria.\u003c/li\u003e\u003cli\u003eYleisimmät reaktiomekanismit. Orgaanisille yhdisteille ominaiset reaktiot ja valmistusmenetelmät.  \u003c/li\u003e\u003cli\u003eJohdanto teolliseen orgaaniseen kemiaan.\u003c/li\u003e\u003cli\u003eItseopiskelumateriaali: Johdanto spektroskooppisiin analyysimenetelmiin (NMR, IR ja UV-VIS) ja massaspektrometriaan, joka ei sisälly tenttialueeseen.\u003cbr /\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 5,
+        "date": "2021-05-08"
+      },
+      {
+        "course": {
+          "code": "BBT.013",
+          "credits": 7,
+          "showGrades": true,
+          "name": "Biokemian menetelmät ja työt",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-42e7dfb2-18e3-4316-ba0e-576b135cef37\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cp\u003eOpintojakso koostuu ryhmässä tehtävästä tutkimuksellisista biokemian laboratoriotöistä, joita opiskelijat tekevät ohjattuna ja kirjoittavat tulostensa pohjalta työraportteja. Opintojakson laboratorioharjoitukset ovat yleisiä biokemiallisia analyysimenetelmiä. Tarkempi sisältö käy ilmi opetusta ohjeistavasta työohjeesta. Opintojaksolla luennoidaan yleisimpien analyysi-, erotus- ja puhdistusmenetelmien tausta ja sovelletaan niitä biokemialliseen kvalitatiiviseen ja kvantitatiiviseen tutkimukseen. Luento-osasta pidetään alkukuulustelu ja sen hyväksytty suoritus on edellytys laboratoriotöihin osallistumiselle. Jaksoon kuuluu myös itsenäisesti tehtäviä lasku- ja tulkintaharjoituksia. Laboratoriotöissä ja luennoilla on läsnäolopakko.\u003c/p\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2020-09-17"
+      },
+      {
+        "course": {
+          "code": "BBT.009",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Immunologian perusteet",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-47918\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cp\u003eOpintojakso koostuu immunologiaa käsittelevistä luennoista sekä läsnäoloa edellyttävistä\u003cb\u003e \u003c/b\u003eongelmalähtöisistä tutor-istunnoista.\u003c/p\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 2,
+        "date": "2021-11-11"
+      },
+      {
+        "course": {
+          "code": "BBT.016",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Tilastotieteen perusteet",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-48028\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cp\u003e- Havaintoaineisto ja sen kuvailu\u003c/p\u003e\n\n\n\n\u003cp\u003e- Tilastollinen riippuvuus ja korrelaatio\u003c/p\u003e\n\n\u003cp\u003e- Tilastollisen päättelyn perusteet\u003c/p\u003e\n\n\u003cp\u003e- Tilastolliset mallit ja testaus\u003c/p\u003e\n\n\u003cp\u003e- Tilastollisen ohjelmiston käyttö\u003c/p\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 1,
+        "date": "2022-04-27"
+      },
+      {
+        "course": {
+          "code": "BBT.018",
+          "credits": 10,
+          "showGrades": true,
+          "name": "Molekulaarinen solubiologia",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003duta-ykoodi-47966\u0026universityId\u003dtuni-university-root-id",
+          "description": "Kurssilla perehdytään syvällisesti aitotumallisten eläinsolujen sisäiseen organisaatioon ja toimintaan, solujenväliseen kommunikaatioon ja vuorovaikutuksiin sekä niiden säätelyyn, solun kalvojen ominaisuuksiin ja dynamiikkaan, solun organelleihin ja solujen osastoitumiseen, solunsisäiseen molekyylien kuljetukseen, ohjaukseen ja laadunvalvontaan, solujenvälisiin vuorovaikutuksiin ja kommunikaatioon,- solutukirangan, soluväliaineen, solujen kasvun, jakautumisen, erilaistumisen sekä kuoleman säätelyyn. Opiskelija saa kurssilla perustiedot syövän solubiologiasta ja kantasolutyypeistä",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2018-01-09"
+      },
+      {
+        "course": {
+          "code": "LANG.002",
+          "credits": 2,
+          "showGrades": false,
+          "name": "Monikielinen johdanto akateemisiin viestintä- ja kieliopintoihin 2",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-9809534b-8ccf-4cf2-82fc-6c4717417fbe\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cp\u003eMinä kielenoppijana\u003c/p\u003e\u003cul\u003e\u003cli\u003evahvuudet ja kehittymiskohteet eri kielten oppijana  \u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003ekielenoppimisstrategiat \u003c/li\u003e\u003cli\u003ekieliopintojen suunnittelu ja tavoitteiden asettaminen \u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMinä akateemiseen vuorovaikutukseen osallistujana \u003c/p\u003e\u003cul\u003e\u003cli\u003evahvuudet ja kehittymiskohteet viestijänä\u003c/li\u003e\u003cli\u003eoma rooli ja vastuu vuorovaikutuksessa (esim. mielipiteen ilmaiseminen, aktiivinen kuuntelu ja osallistuminen, palaute)\u003c/li\u003e\u003cli\u003evuorovaikutus monikulttuurisessa ja -kielisessä akateemisessa ympäristössä \u003c/li\u003e\u003c/ul\u003e\u003cp\u003e  Minä akateemisen tekstin lukijana ja tuottajana\u003c/p\u003e\u003cul\u003e\u003cli\u003eakateemisten tekstien keskeiset piirteet (tyyli, rakenne ja viitteet)\u003c/li\u003e\u003cli\u003elukemisstrategiat \u003c/li\u003e\u003cli\u003ekirjoitusprosessin keskeiset vaiheet ja opinnoissa kirjoitettavat tyypillisimmät tekstilajit \u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 0,
+        "date": "2018-10-17"
+      },
+      {
+        "course": {
+          "code": "LANG.ESP.006",
+          "credits": 4,
+          "showGrades": true,
+          "name": "Espanja 6 – Työskentele espanjaksi",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-9bb35434-db04-4996-8f7e-a590dfe9f354\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cp\u003e\u003cb\u003e \u003c/b\u003eTyöelämä nyt ja tulevaisuudessa\u003c/p\u003e\u003cul\u003e\u003cli\u003e       Työ- ja harjoittelupaikan haku, oma osaaminen \u003c/li\u003e\u003cli\u003e Oman alan työnantajat ja työtehtävät\u003c/li\u003e\u003cli\u003eOman alan ilmiöitä \u003c/li\u003e\u003cli\u003e       Työyhteisöt ja erilaisten työkulttuurien piirteitä\u003c/li\u003e\u003cli\u003eAjankohtaisia yhteiskunnallisia teemoja\u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 5,
+        "date": "2022-05-04"
+      },
+      {
+        "course": {
+          "code": "BBT.021",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Bioinformatics",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dotm-05591243-612a-4e0a-8d0f-3acac68f34f5\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cul\u003e\u003cli\u003e\u003cp\u003eBiology as an information-based science\u003c/p\u003e\u003c/li\u003e\u003cli\u003eBasics of computer science\u003cbr /\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eSequences and sequencing, alignment\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eThe use of a genome browser\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eGene annotations, gene and protein databases\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eDNA-seq data and analysis to copy number and SNP results using existing tools\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eOther sequencing data types: RNA-seq, scRNA-seq, epigenetics, proteomics\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eGene regulation: Binding motifs and ChIP-seq data\u003c/p\u003e\u003c/li\u003e\u003c/ul\u003e\u003cul\u003e\u003cli\u003e\u003cp\u003eGene regulation and functional information in databases\u003c/p\u003e\u003c/li\u003e\u003cli\u003e\u003cp\u003eEnrichment analysis\u003c/p\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2020-05-14"
+      }
+    ],
+    "courseFound": false
+  },
+  {
+    "studentNumber": "444444",
+    "name": "Ossi Opettaja",
+    "startYear": 2019,
+    "endYear": 2026,
+    "degree": {
+      "urlRuleList": {},
+      "credits": 0,
+      "rules": [],
+      "courses": [],
+      "courseURLs": []
+    },
+    "attainments": [],
+    "courseFound": false
+  },
+  {
+    "studentNumber": "555555",
+    "name": "Ylva Ymäristöihme",
+    "startYear": 2021,
+    "endYear": 2025,
+    "degree": {
+      "code": "YMPM",
+      "urlRuleList": {},
+      "credits": 120,
+      "groupId": "tut-dp-g-1162",
+      "name": "Master\u0027s Programme in Environmental and Energy Engineering",
+      "source": "https://sis-tuni.funidata.fi/kori/api/modules/otm-0cff9e2d-a3c9-47b8-9a91-b155772dd823",
+      "description": "\u003cul\u003e\u003cli\u003eOsaamistavoitteet \u003cbr /\u003e-\tosaa suunnitella ja mitoittaa ympäristö- ja energiatekniikan prosesseja \u003cbr /\u003e-\tosaa soveltaa teknis-luonnontieteellistä osaamistaan ympäristö- ja energiatekniikan kehittämiseen \u003cbr /\u003e-\tosaa luoda raportteja ja esityksiä kriittisesti analysoimansa tiedon pohjalta \u003cbr /\u003e-\tosaa arvioida ympäristö-ja energiatekniikan mahdollisuuksia kestävän kehityksen edistämisessä yhdyskunnissa ja teollisuudessa\u003cbr /\u003e-\tosaa käyttää kieli-, viestintä- ja yhteistyötaitojaan työelämässä ja yhteiskunnallisessa keskustelussa\u003cbr /\u003e-\tsuoriutuu työtehtävistä monialaisessa ja kansainvälisessä työympäristössä \u003cbr /\u003e\u003cbr /\u003e\u003cbr /\u003eOsaamistavoitteet saavutettuaan opiskelijalla on edellytykset jatkotutkintoon johtavaan koulutukseen.\u003cbr /\u003e\u003c/li\u003e\u003c/ul\u003e",
+      "rules": [],
+      "courses": [],
+      "courseURLs": []
+    },
+    "attainments": [
+      {
+        "course": {
+          "code": "TIJO.218",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Organisaatiot ja ihmisten johtaminen",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48219\u0026universityId\u003dtuni-university-root-id",
+          "description": "",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2022-04-13"
+      },
+      {
+        "course": {
+          "code": "FYS.101",
+          "credits": 5,
+          "showGrades": true,
+          "name": "Yliopistofysiikka 1",
+          "source": "https://sis-tuni.funidata.fi/kori/api/course-units/by-group-id?groupId\u003dtut-cu-g-48229\u0026universityId\u003dtuni-university-root-id",
+          "description": "\u003cul\u003e\u003cli\u003eKinematiikka\u003c/li\u003e\u003cli\u003eDynamiikka (Newtonin lait)\u003c/li\u003e\u003cli\u003eTyö ja energia\u003c/li\u003e\u003cli\u003eLiikemäärä ja törmäykset\u003c/li\u003e\u003cli\u003ePyörimisliikkeen dynamiikka\u003c/li\u003e\u003cli\u003eGravitaatio\u003c/li\u003e\u003cli\u003eJousivakion määrittäminen kokeellisesti\u003c/li\u003e\u003cli\u003eVauhtipyörän hitausmomentin määrittäminen kokeellisesti \u003c/li\u003e\u003c/ul\u003e",
+          "rules": [],
+          "courses": [],
+          "courseURLs": []
+        },
+        "grade": 3,
+        "date": "2022-04-06"
+      }
+    ],
+    "courseFound": false
+  }
+]
